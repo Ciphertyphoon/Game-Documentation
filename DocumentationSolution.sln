@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocConsoleApp", "DocConsoleApp\DocConsoleApp.csproj", "{F9614144-2409-4896-A945-8AD492AFF9F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{0FFA93B9-6BCB-4446-B298-F61986B78462}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "SnakeHelpDocumentation", "SnakeHelpDocumentation\SnakeHelpDocumentation.shfbproj", "{AA37BC73-2B60-42FB-8C24-A115337217DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F9614144-2409-4896-A945-8AD492AFF9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9614144-2409-4896-A945-8AD492AFF9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9614144-2409-4896-A945-8AD492AFF9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFA93B9-6BCB-4446-B298-F61986B78462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFA93B9-6BCB-4446-B298-F61986B78462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFA93B9-6BCB-4446-B298-F61986B78462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFA93B9-6BCB-4446-B298-F61986B78462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA37BC73-2B60-42FB-8C24-A115337217DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA37BC73-2B60-42FB-8C24-A115337217DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA37BC73-2B60-42FB-8C24-A115337217DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA37BC73-2B60-42FB-8C24-A115337217DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

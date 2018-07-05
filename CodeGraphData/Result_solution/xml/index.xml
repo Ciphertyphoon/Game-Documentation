@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_snake_1_1_game" kind="class"><name>Snake::Game</name>
+    <member refid="class_snake_1_1_game_1a888cadd0a012125452ebb79eaf0ba452" kind="variable"><name>m_Width</name></member>
+    <member refid="class_snake_1_1_game_1add3581587df75e2220076be1829b7bfc" kind="variable"><name>m_Height</name></member>
+    <member refid="class_snake_1_1_game_1a6dc056d37537ad9e0d1ca49052a33662" kind="variable"><name>m_Snake</name></member>
+    <member refid="class_snake_1_1_game_1a12e14cdbb5ccab077cb96099b98eed79" kind="variable"><name>m_Food</name></member>
+    <member refid="class_snake_1_1_game_1abf97cdaf48baf9d166f116bdba77f962" kind="variable"><name>m_Rnd</name></member>
+    <member refid="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" kind="function"><name>Game</name></member>
+    <member refid="class_snake_1_1_game_1ae3bcefb730cb41ecfc315da121687315" kind="function"><name>Restart</name></member>
+    <member refid="class_snake_1_1_game_1ada55759091b780f152f7e4c362888ae2" kind="function"><name>Draw</name></member>
+    <member refid="class_snake_1_1_game_1a55372fdb6c0351cca92351c5d622a9e0" kind="function"><name>GetScore</name></member>
+    <member refid="class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3" kind="function"><name>SnakeHasGrown</name></member>
+    <member refid="class_snake_1_1_game_1ae1c3c7687934689be99f9894c609b5cb" kind="function"><name>Lost</name></member>
+    <member refid="class_snake_1_1_game_1ab7a178dc4a0dfa1af089aecc944fa209" kind="function"><name>ChangeSnakeDIrection</name></member>
+    <member refid="class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085" kind="function"><name>TryEat</name></member>
+    <member refid="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" kind="function"><name>GenerateFood</name></member>
+  </compound>
+  <compound refid="class_snake_1_1_piece" kind="class"><name>Snake::Piece</name>
+    <member refid="class_snake_1_1_piece_1a0b060fe73837e293df54638df8767686" kind="variable"><name>SIDE</name></member>
+    <member refid="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" kind="variable"><name>m_Color</name></member>
+    <member refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" kind="property"><name>X</name></member>
+    <member refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" kind="property"><name>Y</name></member>
+    <member refid="class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28" kind="function"><name>Piece</name></member>
+    <member refid="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_snake_1_1_program" kind="class"><name>Snake::Program</name>
+    <member refid="class_snake_1_1_program_1a95b652b4d77b5cd8f09e54d5797b89e3" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_doc_console_app_1_1_program" kind="class"><name>DocConsoleApp::Program</name>
+    <member refid="class_doc_console_app_1_1_program_1a841a540dbd58d52bd76a14d29ee2dd56" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_snake_1_1_properties_1_1_resources" kind="class"><name>Snake::Properties::Resources</name>
+    <member refid="class_snake_1_1_properties_1_1_resources_1a71f2058c1891ce12d8fb4be450b7db61" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_snake_1_1_properties_1_1_resources_1acf58e7078e5759dde10a0c025234822f" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_snake_1_1_properties_1_1_resources_1a94c7b73c03ddce5d109e10357bd94f77" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_snake_1_1_properties_1_1_resources_1a9afcadc3516dab4d09e4b4b8fab2decb" kind="property"><name>Culture</name></member>
+    <member refid="class_snake_1_1_properties_1_1_resources_1a21f64f622d782817518b538148348e01" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_snake_1_1_properties_1_1_settings" kind="class"><name>Snake::Properties::Settings</name>
+    <member refid="class_snake_1_1_properties_1_1_settings_1afbfc6f68eeff75362f6551c510f03708" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_snake_1_1_properties_1_1_settings_1a5e8898cc1877ff56b9f07a539cec8f29" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="class_snake_1_1_snake" kind="class"><name>Snake::Snake</name>
+    <member refid="class_snake_1_1_snake_1a8d02628f982abe0f3ef44adfb1f726f2" kind="variable"><name>HeadX</name></member>
+    <member refid="class_snake_1_1_snake_1a89adce0458550b1b51303177af538219" kind="variable"><name>HeadY</name></member>
+    <member refid="class_snake_1_1_snake_1a912fc4449dc3eca0da55238e89ff36aa" kind="variable"><name>ScoreLength</name></member>
+    <member refid="class_snake_1_1_snake_1a31479cba3049a1e8371170df81c4eb23" kind="property"><name>Direction</name></member>
+    <member refid="class_snake_1_1_snake_1a23154b222280aed8648914f592a0be7a" kind="variable"><name>m_Pieces</name></member>
+    <member refid="class_snake_1_1_snake_1a3d10b9f81a7c8e6e7b8cd9263c018125" kind="variable"><name>m_Color</name></member>
+    <member refid="class_snake_1_1_snake_1a8380566e1a2f23802f4656a72da76412" kind="function"><name>Snake</name></member>
+    <member refid="class_snake_1_1_snake_1ae1a73925b1a95fb087c26d87fe16a79f" kind="function"><name>Draw</name></member>
+    <member refid="class_snake_1_1_snake_1a87e93fe5139973a667ecda894769349f" kind="function"><name>CanEat</name></member>
+    <member refid="class_snake_1_1_snake_1a1b5785fedc244882f02fa9145141c432" kind="function"><name>EatsItself</name></member>
+    <member refid="class_snake_1_1_snake_1a06b5d8a17c2d94cd6c979cef1c275eda" kind="function"><name>Contains</name></member>
+    <member refid="class_snake_1_1_snake_1a68e6b4ee9071abc4f25805d920785a19" kind="function"><name>Eat</name></member>
+    <member refid="class_snake_1_1_snake_1afdb48abfc8554f6b2f4220cadc751879" kind="function"><name>Clear</name></member>
+    <member refid="class_snake_1_1_snake_1a282122ce2c3e9e54a6aaca3f43ed1b44" kind="function"><name>MoveTo</name></member>
+  </compound>
+  <compound refid="class_snake_1_1_window" kind="class"><name>Snake::Window</name>
+    <member refid="class_snake_1_1_window_1a9062ddbb391d972a1d4463c9dffb92ed" kind="variable"><name>WIDTH</name></member>
+    <member refid="class_snake_1_1_window_1ad3db1ce4b9762bfe200fc4edaa82c7be" kind="variable"><name>HEIGHT</name></member>
+    <member refid="class_snake_1_1_window_1a0337ab5c01feaab19ef7a417a008e894" kind="variable"><name>SCORE_STRING</name></member>
+    <member refid="class_snake_1_1_window_1ab061ad97897287fd387ab3257afbc027" kind="variable"><name>m_BackgroundColor</name></member>
+    <member refid="class_snake_1_1_window_1aeee75245fe3e664d795f65afe73de094" kind="variable"><name>m_Game</name></member>
+    <member refid="class_snake_1_1_window_1a89c7994cf627a96ff1d1a1a3cd0ea93e" kind="variable"><name>m_GameField</name></member>
+    <member refid="class_snake_1_1_window_1ab9d41c8c542f96d4b3b5e24eceb44353" kind="variable"><name>m_GameGraphics</name></member>
+    <member refid="class_snake_1_1_window_1aeb5780622794e2bb196f67adfdaa7b55" kind="variable"><name>components</name></member>
+    <member refid="class_snake_1_1_window_1ae36d16241edd7f753134d34119b66067" kind="variable"><name>m_Timer</name></member>
+    <member refid="class_snake_1_1_window_1a38ed1fb52b0f48ca9ee4d472d4b06974" kind="variable"><name>m_RestartBtn</name></member>
+    <member refid="class_snake_1_1_window_1a59d59b9c267f75b0c4b565454f520714" kind="variable"><name>scoreLbl</name></member>
+    <member refid="class_snake_1_1_window_1ab6ea319a57aaf8656b86df24bab0f810" kind="function"><name>Window</name></member>
+    <member refid="class_snake_1_1_window_1ad7ff8d320d8b689f6c4df5170f922030" kind="function"><name>UpdateScore</name></member>
+    <member refid="class_snake_1_1_window_1aea9a1f8d7553baa30e67b58909210415" kind="function"><name>OnTimerTick</name></member>
+    <member refid="class_snake_1_1_window_1af4974962d6658e8225bd9b840a3fca32" kind="function"><name>OnKeyDown</name></member>
+    <member refid="class_snake_1_1_window_1ae50a37d5b61d3704469c2902308d96e3" kind="function"><name>OnPaint</name></member>
+    <member refid="class_snake_1_1_window_1af9391fc232a8726ba50d284bb23271bb" kind="function"><name>OnRestartBtnClick</name></member>
+    <member refid="class_snake_1_1_window_1a2291066b4718678884b7d69ae8360407" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_snake_1_1_window_1aeb80b0d2ae454bee60c5b587574884d6" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="namespace_doc_console_app" kind="namespace"><name>DocConsoleApp</name>
+  </compound>
+  <compound refid="namespace_snake" kind="namespace"><name>Snake</name>
+    <member refid="namespace_snake_1a17196bbf1b4636022495ef12635a68f7" kind="enum"><name>Direction</name></member>
+    <member refid="namespace_snake_1a17196bbf1b4636022495ef12635a68f7a08a38277b0309070706f6652eeae9a53" kind="enumvalue"><name>Down</name></member>
+    <member refid="namespace_snake_1a17196bbf1b4636022495ef12635a68f7a258f49887ef8d14ac268c92b02503aaa" kind="enumvalue"><name>Up</name></member>
+    <member refid="namespace_snake_1a17196bbf1b4636022495ef12635a68f7a92b09c7c48c520c3c55e497875da437c" kind="enumvalue"><name>Right</name></member>
+    <member refid="namespace_snake_1a17196bbf1b4636022495ef12635a68f7a945d5e233cf7d6240f6b783b36a374ff" kind="enumvalue"><name>Left</name></member>
+  </compound>
+  <compound refid="namespace_snake_1_1_properties" kind="namespace"><name>Snake::Properties</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="_doc_console_app_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_snake_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_doc_console_app_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_snake_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_game_8cs" kind="file"><name>Game.cs</name>
+  </compound>
+  <compound refid="_piece_8cs" kind="file"><name>Piece.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="_snake_8cs" kind="file"><name>Snake.cs</name>
+  </compound>
+  <compound refid="_window_8cs" kind="file"><name>Window.cs</name>
+  </compound>
+  <compound refid="_window_8_designer_8cs" kind="file"><name>Window.Designer.cs</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_838a78b71b139910c2492c9fa63d452e" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/DocConsoleApp</name>
+  </compound>
+  <compound refid="dir_3a73c1d2f64c2da2fcacae9de553058b" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution</name>
+  </compound>
+  <compound refid="dir_a3a9370c5c66076ada9aea9afd8a5c06" kind="dir"><name>D:/Segment/DOTNET</name>
+  </compound>
+  <compound refid="dir_88998e373b9dbb00503f10f88acbe14e" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users/jonna</name>
+  </compound>
+  <compound refid="dir_bd325e1487e8dd90f9ec35190a352dac" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Properties</name>
+  </compound>
+  <compound refid="dir_7e2c6cc130a545f3f3d828584abb0c60" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/DocConsoleApp/Properties</name>
+  </compound>
+  <compound refid="dir_3da52427048316f8bed9213fac9dff07" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos</name>
+  </compound>
+  <compound refid="dir_e799ebbeb702f56352f77315ad009c3a" kind="dir"><name>D:/Segment</name>
+  </compound>
+  <compound refid="dir_a1d8b9116d7330b39988bf6011b50bbd" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake</name>
+  </compound>
+  <compound refid="dir_c9bcee0024a4bde78df4e77e746c23c1" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users/jonna/source</name>
+  </compound>
+  <compound refid="dir_3c89a8ee2d8bd37f4ed4a6cefa9cc2e6" kind="dir"><name>D:/Segment/DOTNET/Workspaces/Users</name>
+  </compound>
+  <compound refid="dir_1f182c5504786216b3b94f836575c114" kind="dir"><name>D:/Segment/DOTNET/Workspaces</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_doc_console_app" kind="namespace">
+    <compoundname>DocConsoleApp</compoundname>
+    <innerclass refid="class_doc_console_app_1_1_program" prot="public">DocConsoleApp::Program</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/DocConsoleApp/Program.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

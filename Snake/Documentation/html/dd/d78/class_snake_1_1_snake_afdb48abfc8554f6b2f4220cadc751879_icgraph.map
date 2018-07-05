@@ -1,0 +1,7 @@
+<map id="Snake.Snake.Clear" name="Snake.Snake.Clear">
+<area shape="rect" id="node2" href="$d5/d72/class_snake_1_1_game.html#ae3bcefb730cb41ecfc315da121687315" title="Restarts this object. " alt="" coords="188,35,332,61"/>
+<area shape="rect" id="node3" href="$d5/d72/class_snake_1_1_game.html#a16b91396b858683bbf27177137e660da" title="Constructor. " alt="" coords="407,5,545,32"/>
+<area shape="rect" id="node4" href="$d8/dae/class_snake_1_1_window.html#af9391fc232a8726ba50d284bb23271bb" title="Raises the restart button click event. " alt="" coords="380,57,572,98"/>
+<area shape="rect" id="node5" href="$d8/dae/class_snake_1_1_window.html#a2291066b4718678884b7d69ae8360407" title="Required method for Designer support &#45; do not modify the contents of this method with the code editor..." alt="" coords="620,64,847,91"/>
+<area shape="rect" id="node6" href="$d8/dae/class_snake_1_1_window.html#ab6ea319a57aaf8656b86df24bab0f810" title="Default constructor. " alt="" coords="895,64,1053,91"/>
+</map>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a1d8b9116d7330b39988bf6011b50bbd" kind="dir">
+    <compoundname>D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake</compoundname>
+    <innerdir refid="dir_bd325e1487e8dd90f9ec35190a352dac">D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Properties</innerdir>
+    <innerfile refid="_game_8cs">Game.cs</innerfile>
+    <innerfile refid="_piece_8cs">Piece.cs</innerfile>
+    <innerfile refid="_snake_2_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_snake_8cs">Snake.cs</innerfile>
+    <innerfile refid="_window_8cs">Window.cs</innerfile>
+    <innerfile refid="_window_8_designer_8cs">Window.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/"/>
+  </compounddef>
+</doxygen>

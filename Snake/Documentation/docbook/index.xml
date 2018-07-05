@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+    <title>Project:Snake Game</title>
+    </info>
+    <chapter>
+        <title>Namespace Documentation</title>
+        <xi:include href="d2/d3b/namespace_snake.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d8/dd0/namespace_system.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d9/d1b/namespace_system_1_1_collections_1_1_generic.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dc/d6c/namespace_system_1_1_drawing.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d5/de4/namespace_system_1_1_linq.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="de/de6/namespace_system_1_1_windows_1_1_forms.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Data Structure Documentation</title>
+        <xi:include href="df/d08/class_form.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d5/d72/class_snake_1_1_game.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d9/d8f/class_snake_1_1_piece.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d7/da1/class_snake_1_1_program.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dd/d78/class_snake_1_1_snake.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d8/dae/class_snake_1_1_window.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>File Documentation</title>
+        <xi:include href="dc/dcb/_game_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d1/dec/_piece_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dd/d5c/_program_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="de/ddb/_snake_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d7/ddf/_window_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="de/dc4/_window_8_designer_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Directory Documentation</title>
+        <xi:include href="dir_12d963397bc48d0d95360fbce1bbf5a9.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_375c0016b797f80cb1318c1df39dde9d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_9e3b874b4044a5f13e56fed73f1cfe2a.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_d99262c8ce4b488f79ebec2d80cfe102.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_c72985a7a8fa9390c437da912bde6f19.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_aa618a3221c50104ff3fe80853281f02.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_2c5034725b7d2880e1b5b763dc5a5f55.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+</book>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="CanEat method" Url="html/M-Snake.Snake.CanEat.htm" />
+  <HelpKINode Title="ChangeSnakeDIrection method" Url="html/M-Snake.Game.ChangeSnakeDIrection.htm" />
+  <HelpKINode Title="Clear method" Url="html/M-Snake.Snake.Clear.htm" />
+  <HelpKINode Title="Contains method" Url="html/M-Snake.Snake.Contains.htm" />
+  <HelpKINode Title="Direction enumeration" Url="html/T-Snake.Direction.htm" />
+  <HelpKINode Title="Direction property" Url="html/P-Snake.Snake.Direction.htm" />
+  <HelpKINode Title="Direction.Down field" Url="html/F-Snake.Direction.Down.htm" />
+  <HelpKINode Title="Direction.Left field" Url="html/F-Snake.Direction.Left.htm" />
+  <HelpKINode Title="Direction.Right field" Url="html/F-Snake.Direction.Right.htm" />
+  <HelpKINode Title="Direction.Up field" Url="html/F-Snake.Direction.Up.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/Overload-Snake.Window.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/M-Snake.Window.Dispose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Down enumeration member" Url="html/T-Snake.Direction.htm" />
+  <HelpKINode Title="Down field" Url="html/F-Snake.Direction.Down.htm" />
+  <HelpKINode Title="Draw method">
+    <HelpKINode Title="Draw Method " Url="html/M-Snake.Game.Draw.htm" />
+    <HelpKINode Title="Draw Method " Url="html/M-Snake.Piece.Draw.htm" />
+    <HelpKINode Title="Draw Method " Url="html/M-Snake.Snake.Draw.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Eat method" Url="html/M-Snake.Snake.Eat.htm" />
+  <HelpKINode Title="EatsItself method" Url="html/M-Snake.Snake.EatsItself.htm" />
+  <HelpKINode Title="Game class">
+    <HelpKINode Title="Game Class" Url="html/T-Snake.Game.htm" />
+    <HelpKINode Title="Game Members" Url="html/AllMembers.T-Snake.Game.htm" />
+    <HelpKINode Title="about Game class" Url="html/T-Snake.Game.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Snake.Game.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Snake.Game.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Snake.Game.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Game.ChangeSnakeDIrection method" Url="html/M-Snake.Game.ChangeSnakeDIrection.htm" />
+  <HelpKINode Title="Game.Draw method" Url="html/M-Snake.Game.Draw.htm" />
+  <HelpKINode Title="Game.Game constructor" Url="html/M-Snake.Game.-ctor.htm" />
+  <HelpKINode Title="Game.GetScore method" Url="html/M-Snake.Game.GetScore.htm" />
+  <HelpKINode Title="Game.Lost method" Url="html/M-Snake.Game.Lost.htm" />
+  <HelpKINode Title="Game.Restart method" Url="html/M-Snake.Game.Restart.htm" />
+  <HelpKINode Title="Game.SnakeHasGrown method" Url="html/M-Snake.Game.SnakeHasGrown.htm" />
+  <HelpKINode Title="GetScore method" Url="html/M-Snake.Game.GetScore.htm" />
+  <HelpKINode Title="HeadX property" Url="html/P-Snake.Snake.HeadX.htm" />
+  <HelpKINode Title="HeadY property" Url="html/P-Snake.Snake.HeadY.htm" />
+  <HelpKINode Title="Left enumeration member" Url="html/T-Snake.Direction.htm" />
+  <HelpKINode Title="Left field" Url="html/F-Snake.Direction.Left.htm" />
+  <HelpKINode Title="Lost method" Url="html/M-Snake.Game.Lost.htm" />
+  <HelpKINode Title="MoveTo method" Url="html/M-Snake.Snake.MoveTo.htm" />
+  <HelpKINode Title="Piece class">
+    <HelpKINode Title="Piece Class" Url="html/T-Snake.Piece.htm" />
+    <HelpKINode Title="Piece Members" Url="html/AllMembers.T-Snake.Piece.htm" />
+    <HelpKINode Title="about Piece class" Url="html/T-Snake.Piece.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Snake.Piece.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Snake.Piece.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-Snake.Piece.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Snake.Piece.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Snake.Piece.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Piece.Draw method" Url="html/M-Snake.Piece.Draw.htm" />
+  <HelpKINode Title="Piece.Piece constructor" Url="html/M-Snake.Piece.-ctor.htm" />
+  <HelpKINode Title="Piece.SIDE field" Url="html/F-Snake.Piece.SIDE.htm" />
+  <HelpKINode Title="Piece.X property" Url="html/P-Snake.Piece.X.htm" />
+  <HelpKINode Title="Piece.Y property" Url="html/P-Snake.Piece.Y.htm" />
+  <HelpKINode Title="Restart method" Url="html/M-Snake.Game.Restart.htm" />
+  <HelpKINode Title="Right enumeration member" Url="html/T-Snake.Direction.htm" />
+  <HelpKINode Title="Right field" Url="html/F-Snake.Direction.Right.htm" />
+  <HelpKINode Title="ScoreLength property" Url="html/P-Snake.Snake.ScoreLength.htm" />
+  <HelpKINode Title="SIDE field" Url="html/F-Snake.Piece.SIDE.htm" />
+  <HelpKINode Title="Snake class">
+    <HelpKINode Title="Snake Class" Url="html/T-Snake.Snake.htm" />
+    <HelpKINode Title="Snake Members" Url="html/AllMembers.T-Snake.Snake.htm" />
+    <HelpKINode Title="about Snake class" Url="html/T-Snake.Snake.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Snake.Snake.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Snake.Snake.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Snake.Snake.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Snake.Snake.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Snake namespace" Url="html/N-Snake.htm" />
+  <HelpKINode Title="Snake.CanEat method" Url="html/M-Snake.Snake.CanEat.htm" />
+  <HelpKINode Title="Snake.Clear method" Url="html/M-Snake.Snake.Clear.htm" />
+  <HelpKINode Title="Snake.Contains method" Url="html/M-Snake.Snake.Contains.htm" />
+  <HelpKINode Title="Snake.Direction enumeration" Url="html/T-Snake.Direction.htm" />
+  <HelpKINode Title="Snake.Direction property" Url="html/P-Snake.Snake.Direction.htm" />
+  <HelpKINode Title="Snake.Draw method" Url="html/M-Snake.Snake.Draw.htm" />
+  <HelpKINode Title="Snake.Eat method" Url="html/M-Snake.Snake.Eat.htm" />
+  <HelpKINode Title="Snake.EatsItself method" Url="html/M-Snake.Snake.EatsItself.htm" />
+  <HelpKINode Title="Snake.Game class">
+    <HelpKINode Title="Game Class" Url="html/T-Snake.Game.htm" />
+    <HelpKINode Title="Game Members" Url="html/AllMembers.T-Snake.Game.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Snake.HeadX property" Url="html/P-Snake.Snake.HeadX.htm" />
+  <HelpKINode Title="Snake.HeadY property" Url="html/P-Snake.Snake.HeadY.htm" />
+  <HelpKINode Title="Snake.MoveTo method" Url="html/M-Snake.Snake.MoveTo.htm" />
+  <HelpKINode Title="Snake.Piece class">
+    <HelpKINode Title="Piece Class" Url="html/T-Snake.Piece.htm" />
+    <HelpKINode Title="Piece Members" Url="html/AllMembers.T-Snake.Piece.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Snake.ScoreLength property" Url="html/P-Snake.Snake.ScoreLength.htm" />
+  <HelpKINode Title="Snake.Snake class">
+    <HelpKINode Title="Snake Class" Url="html/T-Snake.Snake.htm" />
+    <HelpKINode Title="Snake Members" Url="html/AllMembers.T-Snake.Snake.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Snake.Snake constructor" Url="html/M-Snake.Snake.-ctor.htm" />
+  <HelpKINode Title="Snake.Window class">
+    <HelpKINode Title="Window Class" Url="html/T-Snake.Window.htm" />
+    <HelpKINode Title="Window Members" Url="html/AllMembers.T-Snake.Window.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SnakeHasGrown method" Url="html/M-Snake.Game.SnakeHasGrown.htm" />
+  <HelpKINode Title="Up enumeration member" Url="html/T-Snake.Direction.htm" />
+  <HelpKINode Title="Up field" Url="html/F-Snake.Direction.Up.htm" />
+  <HelpKINode Title="Window class">
+    <HelpKINode Title="Window Class" Url="html/T-Snake.Window.htm" />
+    <HelpKINode Title="Window Members" Url="html/AllMembers.T-Snake.Window.htm" />
+    <HelpKINode Title="about Window class" Url="html/T-Snake.Window.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-Snake.Window.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Snake.Window.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-Snake.Window.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-Snake.Window.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-Snake.Window.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Window.Dispose method">
+    <HelpKINode Title="Dispose Method " Url="html/M-Snake.Window.Dispose.htm" />
+    <HelpKINode Title="Dispose Method " Url="html/Overload-Snake.Window.Dispose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Window.Window constructor" Url="html/M-Snake.Window.-ctor.htm" />
+  <HelpKINode Title="X property" Url="html/P-Snake.Piece.X.htm" />
+  <HelpKINode Title="Y property" Url="html/P-Snake.Piece.Y.htm" />
+</HelpKI>

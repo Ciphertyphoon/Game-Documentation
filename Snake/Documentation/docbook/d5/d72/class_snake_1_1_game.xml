@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d5/d72/class_snake_1_1_game">
+<title>Snake::Game class Reference</title>
+<para>Inheritance diagram for Snake::Game</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d3/d36/class_snake_1_1_game__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Snake::Game</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../dc/dc7/class_snake_1_1_game__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly int m_Width<para><emphasis>&lt;summary&gt;   The width. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly int m_Height<para><emphasis>&lt;summary&gt;   The height. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Snake m_Snake<para><emphasis>&lt;summary&gt;   The snake. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Piece m_Food<para><emphasis>&lt;summary&gt;   The food. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Random m_Rnd<para><emphasis>&lt;summary&gt;   The random. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d5/d72/class_snake_1_1_game_1a16b91396b858683bbf27177137e660da">Game</link> (
+int width, int height)<para><emphasis>&lt;summary&gt;   Constructor. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d5/d72/class_snake_1_1_game_1ae3bcefb730cb41ecfc315da121687315">Restart</link> (
+)<para><emphasis>&lt;summary&gt;   Restarts this object. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d5/d72/class_snake_1_1_game_1ada55759091b780f152f7e4c362888ae2">Draw</link> (
+Graphics g)<para><emphasis>&lt;summary&gt;   Draws the given g. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="d5/d72/class_snake_1_1_game_1a55372fdb6c0351cca92351c5d622a9e0">GetScore</link> (
+)<para><emphasis>&lt;summary&gt;   Gets the score. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="d5/d72/class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3">SnakeHasGrown</link> (
+)<para><emphasis>&lt;summary&gt;   Determines if we can snake has grown. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="d5/d72/class_snake_1_1_game_1ae1c3c7687934689be99f9894c609b5cb">Lost</link> (
+)<para><emphasis>&lt;summary&gt;   Losts this object. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d5/d72/class_snake_1_1_game_1ab7a178dc4a0dfa1af089aecc944fa209">ChangeSnakeDIrection</link> (
+<link linkend="d2/d3b/namespace_snake_1a17196bbf1b4636022495ef12635a68f7">Direction</link> direction)<para><emphasis>&lt;summary&gt;   Change snake d irection. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="d5/d72/class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085">TryEat</link> (
+int a, int b)<para><emphasis>&lt;summary&gt;   Attempts to eat an int from the given int. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d5/d72/class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052">GenerateFood</link> (
+)<para><emphasis>&lt;summary&gt;   Generates a food. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A game. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Jonna, 03-Jul-18. </para>
+                <para>Definition at line 19 of file Game.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Game.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Field Documentation</title>
+            <simplesect>
+                <title>readonly int Snake.Game.m_Width</title>                
+                <para>Definition at line 21 of file Game.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Game.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly int Snake.Game.m_Height</title>                
+                <para>Definition at line 23 of file Game.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Game.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly Snake Snake.Game.m_Snake</title>                
+                <para>Definition at line 25 of file Game.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Game.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly Piece Snake.Game.m_Food</title>                
+                <para>Definition at line 27 of file Game.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Game.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly Random Snake.Game.m_Rnd</title>                
+                <para>Definition at line 29 of file Game.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Game.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1a16b91396b858683bbf27177137e660da">
+                <title>Snake.Game.Game (int width, int height)</title> <emphasis>&lt;summary&gt;   Constructor. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>width</entry>
+                                <entry>
+<para>The width. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>height</entry>
+                                <entry>
+<para>The height. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1ae3bcefb730cb41ecfc315da121687315">
+                <title>void Snake.Game.Restart ()</title> <emphasis>&lt;summary&gt;   Restarts this object. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+            </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1ada55759091b780f152f7e4c362888ae2">
+                <title>void Snake.Game.Draw (Graphics g)</title> <emphasis>&lt;summary&gt;   Draws the given g. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>g</entry>
+                                <entry>
+<para>The Graphics to process. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1a55372fdb6c0351cca92351c5d622a9e0">
+                <title>int Snake.Game.GetScore ()</title> <emphasis>&lt;summary&gt;   Gets the score. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>The score. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3">
+                <title>bool Snake.Game.SnakeHasGrown ()</title> <emphasis>&lt;summary&gt;   Determines if we can snake has grown. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>True if it succeeds, false if it fails. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1ae1c3c7687934689be99f9894c609b5cb">
+                <title>bool Snake.Game.Lost ()</title> <emphasis>&lt;summary&gt;   Losts this object. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>True if it succeeds, false if it fails. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1ab7a178dc4a0dfa1af089aecc944fa209">
+                <title>void Snake.Game.ChangeSnakeDIrection (Direction direction)</title> <emphasis>&lt;summary&gt;   Change snake d irection. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>direction</entry>
+                                <entry>
+<para>The direction. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085">
+                <title>bool Snake.Game.TryEat (int a, int b)</title> <emphasis>&lt;summary&gt;   Attempts to eat an int from the given int. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>True if it succeeds, false if it fails. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="d5/d72/class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052">
+                <title>void Snake.Game.GenerateFood ()</title> <emphasis>&lt;summary&gt;   Generates a food. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+            </section>
+</section>

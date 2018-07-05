@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dir_2c5034725b7d2880e1b5b763dc5a5f55">
+    <title>D:/Segment/DOTNET/Workspaces Directory Reference</title>
+<para>Directory dependency diagram for D:/Segment/DOTNET/Workspaces</para>
+<para>
+    <figure>
+        <title>Directory Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../dir_2c5034725b7d2880e1b5b763dc5a5f55_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <simplesect>
+            <title> Directories </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>dir <link linkend="dir_aa618a3221c50104ff3fe80853281f02">D:/Segment/DOTNET/Workspaces/Users</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Directory location is D:/Segment/DOTNET/Workspaces/</para>
+    </simplesect>
+</section>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/d8f/class_snake_1_1_piece">
+<title>Snake::Piece class Reference</title>
+<para>Inheritance diagram for Snake::Piece</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../de/d53/class_snake_1_1_piece__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Snake::Piece</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d1/d57/class_snake_1_1_piece__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static int SIDE<para><emphasis>&lt;summary&gt;   The side. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Brush m_Color<para><emphasis>&lt;summary&gt;   The color. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d8f/class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28">Piece</link> (
+int a, int b, Brush color)<para><emphasis>&lt;summary&gt;   Constructor. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d9/d8f/class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116">Draw</link> (
+Graphics g)<para><emphasis>&lt;summary&gt;   Draws the given g. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A piece. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Jonna, 03-Jul-18. </para>
+                <para>Definition at line 18 of file Piece.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Piece.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <simplesect>
+                <title>int Snake.Piece.SIDE</title>                
+                <para>Definition at line 20 of file Piece.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Piece.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        <section>
+            <title>Field Documentation</title>
+            <simplesect>
+                <title>readonly Brush Snake.Piece.m_Color</title>                
+                <para>Definition at line 22 of file Piece.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Piece.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="d9/d8f/class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28">
+                <title>Snake.Piece.Piece (int a, int b, Brush color)</title> <emphasis>&lt;summary&gt;   Constructor. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>color</entry>
+                                <entry>
+<para>The color. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d9/d8f/class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116">
+                <title>void Snake.Piece.Draw (Graphics g)</title> <emphasis>&lt;summary&gt;   Draws the given g. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>g</entry>
+                                <entry>
+<para>The Graphics to process. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

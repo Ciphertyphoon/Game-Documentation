@@ -1,0 +1,5 @@
+<map id="Snake.Game.Restart" name="Snake.Game.Restart">
+<area shape="rect" id="node2" href="$dd/d78/class_snake_1_1_snake.html#afdb48abfc8554f6b2f4220cadc751879" title="Clears this object to its blank/initial state. " alt="" coords="222,5,357,32"/>
+<area shape="rect" id="node3" href="$d5/d72/class_snake_1_1_game.html#ad398a631e2e19d4782c0904ed1af1052" title="Generates a food. " alt="" coords="197,56,381,83"/>
+<area shape="rect" id="node4" href="$dd/d78/class_snake_1_1_snake.html#a06b5d8a17c2d94cd6c979cef1c275eda" title="Query if this object contains the given a. " alt="" coords="429,56,584,83"/>
+</map>

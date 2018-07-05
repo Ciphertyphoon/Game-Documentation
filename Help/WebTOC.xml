@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="0971bd5a-e8bf-4b54-870d-024dbc47f35f" Title="Snake Namespace" Url="html/N-Snake.htm">
+    <HelpTOCNode Title="Direction Enumeration" Url="html/T-Snake.Direction.htm" />
+    <HelpTOCNode Id="985b30e1-095e-47e6-9353-070b915185d8" Title="Game Class" Url="html/T-Snake.Game.htm">
+      <HelpTOCNode Title="Game Members" Url="html/AllMembers.T-Snake.Game.htm" />
+      <HelpTOCNode Title="Game Constructor " Url="html/M-Snake.Game.-ctor.htm" />
+      <HelpTOCNode Id="5ba256bc-7c32-4475-8362-7125f15f4c44" Title="Game Methods" Url="html/Methods.T-Snake.Game.htm">
+        <HelpTOCNode Title="ChangeSnakeDIrection Method " Url="html/M-Snake.Game.ChangeSnakeDIrection.htm" />
+        <HelpTOCNode Title="Draw Method " Url="html/M-Snake.Game.Draw.htm" />
+        <HelpTOCNode Title="GetScore Method " Url="html/M-Snake.Game.GetScore.htm" />
+        <HelpTOCNode Title="Lost Method " Url="html/M-Snake.Game.Lost.htm" />
+        <HelpTOCNode Title="Restart Method " Url="html/M-Snake.Game.Restart.htm" />
+        <HelpTOCNode Title="SnakeHasGrown Method " Url="html/M-Snake.Game.SnakeHasGrown.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="19f1b3e4-0a67-4c14-9f35-03cdbaf777fa" Title="Piece Class" Url="html/T-Snake.Piece.htm">
+      <HelpTOCNode Title="Piece Members" Url="html/AllMembers.T-Snake.Piece.htm" />
+      <HelpTOCNode Title="Piece Constructor " Url="html/M-Snake.Piece.-ctor.htm" />
+      <HelpTOCNode Id="fe329f58-eacb-4ed0-ad52-2fd651b435a6" Title="Piece Fields" Url="html/Fields.T-Snake.Piece.htm">
+        <HelpTOCNode Title="SIDE Field" Url="html/F-Snake.Piece.SIDE.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="387c586a-8955-4064-a544-3cbb4ed0049b" Title="Piece Methods" Url="html/Methods.T-Snake.Piece.htm">
+        <HelpTOCNode Title="Draw Method " Url="html/M-Snake.Piece.Draw.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="04f412b9-e888-41d6-a441-c768a6164ec9" Title="Piece Properties" Url="html/Properties.T-Snake.Piece.htm">
+        <HelpTOCNode Title="X Property " Url="html/P-Snake.Piece.X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P-Snake.Piece.Y.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d0dc0c65-e026-4d0e-a8ce-c60381b87ec5" Title="Snake Class" Url="html/T-Snake.Snake.htm">
+      <HelpTOCNode Title="Snake Members" Url="html/AllMembers.T-Snake.Snake.htm" />
+      <HelpTOCNode Title="Snake Constructor " Url="html/M-Snake.Snake.-ctor.htm" />
+      <HelpTOCNode Id="930ba3be-4607-4476-8b37-9ad408e6d23f" Title="Snake Methods" Url="html/Methods.T-Snake.Snake.htm">
+        <HelpTOCNode Title="CanEat Method " Url="html/M-Snake.Snake.CanEat.htm" />
+        <HelpTOCNode Title="Clear Method " Url="html/M-Snake.Snake.Clear.htm" />
+        <HelpTOCNode Title="Contains Method " Url="html/M-Snake.Snake.Contains.htm" />
+        <HelpTOCNode Title="Draw Method " Url="html/M-Snake.Snake.Draw.htm" />
+        <HelpTOCNode Title="Eat Method " Url="html/M-Snake.Snake.Eat.htm" />
+        <HelpTOCNode Title="EatsItself Method " Url="html/M-Snake.Snake.EatsItself.htm" />
+        <HelpTOCNode Title="MoveTo Method " Url="html/M-Snake.Snake.MoveTo.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="75c623cd-abfc-48dc-82f0-42ac65ce44a7" Title="Snake Properties" Url="html/Properties.T-Snake.Snake.htm">
+        <HelpTOCNode Title="Direction Property " Url="html/P-Snake.Snake.Direction.htm" />
+        <HelpTOCNode Title="HeadX Property " Url="html/P-Snake.Snake.HeadX.htm" />
+        <HelpTOCNode Title="HeadY Property " Url="html/P-Snake.Snake.HeadY.htm" />
+        <HelpTOCNode Title="ScoreLength Property " Url="html/P-Snake.Snake.ScoreLength.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a7b6a012-60f2-4b6f-a24c-a12ba7f0c2cd" Title="Window Class" Url="html/T-Snake.Window.htm">
+      <HelpTOCNode Title="Window Members" Url="html/AllMembers.T-Snake.Window.htm" />
+      <HelpTOCNode Title="Window Constructor " Url="html/M-Snake.Window.-ctor.htm" />
+      <HelpTOCNode Id="b3f279b6-598a-4fd2-b89b-f207592df1cd" Title="Window Methods" Url="html/Methods.T-Snake.Window.htm">
+        <HelpTOCNode Id="99b80c14-72b5-494e-8e26-9e2c9f0ea0dc" Title="Dispose Method " Url="html/Overload-Snake.Window.Dispose.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M-Snake.Window.Dispose.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Window Properties" Url="html/Properties.T-Snake.Window.htm" />
+      <HelpTOCNode Title="Window Events" Url="html/Events.T-Snake.Window.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

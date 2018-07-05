@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a3a9370c5c66076ada9aea9afd8a5c06" kind="dir">
+    <compoundname>D:/Segment/DOTNET</compoundname>
+    <innerdir refid="dir_1f182c5504786216b3b94f836575c114">D:/Segment/DOTNET/Workspaces</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Segment/DOTNET/"/>
+  </compounddef>
+</doxygen>

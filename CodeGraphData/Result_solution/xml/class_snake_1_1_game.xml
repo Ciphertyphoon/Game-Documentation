@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_snake_1_1_game" kind="class" prot="public">
+    <compoundname>Snake::Game</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_snake_1_1_game_1a888cadd0a012125452ebb79eaf0ba452" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int Snake.Game.m_Width</definition>
+        <argsstring></argsstring>
+        <name>m_Width</name>
+        <briefdescription>
+<para>The width. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="21" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" compoundref="_game_8cs" startline="40" endline="48">Snake.Game.Game</referencedby>
+        <referencedby refid="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" compoundref="_game_8cs" startline="168" endline="178">Snake.Game.GenerateFood</referencedby>
+        <referencedby refid="class_snake_1_1_game_1ae1c3c7687934689be99f9894c609b5cb" compoundref="_game_8cs" startline="121" endline="124">Snake.Game.Lost</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_snake_1_1_game_1add3581587df75e2220076be1829b7bfc" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int Snake.Game.m_Height</definition>
+        <argsstring></argsstring>
+        <name>m_Height</name>
+        <briefdescription>
+<para>The height. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="23" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" compoundref="_game_8cs" startline="40" endline="48">Snake.Game.Game</referencedby>
+        <referencedby refid="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" compoundref="_game_8cs" startline="168" endline="178">Snake.Game.GenerateFood</referencedby>
+        <referencedby refid="class_snake_1_1_game_1ae1c3c7687934689be99f9894c609b5cb" compoundref="_game_8cs" startline="121" endline="124">Snake.Game.Lost</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_snake_1_1_game_1a6dc056d37537ad9e0d1ca49052a33662" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_snake_1_1_snake" kindref="compound">Snake</ref></type>
+        <definition>readonly Snake Snake.Game.m_Snake</definition>
+        <argsstring></argsstring>
+        <name>m_Snake</name>
+        <briefdescription>
+<para>The snake. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="25" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" compoundref="_game_8cs" startline="40" endline="48">Snake.Game.Game</referencedby>
+        <referencedby refid="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" compoundref="_game_8cs" startline="168" endline="178">Snake.Game.GenerateFood</referencedby>
+        <referencedby refid="class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3" compoundref="_game_8cs" startline="97" endline="111">Snake.Game.SnakeHasGrown</referencedby>
+        <referencedby refid="class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085" compoundref="_game_8cs" startline="150" endline="160">Snake.Game.TryEat</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_snake_1_1_game_1a12e14cdbb5ccab077cb96099b98eed79" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_snake_1_1_piece" kindref="compound">Piece</ref></type>
+        <definition>readonly Piece Snake.Game.m_Food</definition>
+        <argsstring></argsstring>
+        <name>m_Food</name>
+        <briefdescription>
+<para>The food. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="27" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" compoundref="_game_8cs" startline="40" endline="48">Snake.Game.Game</referencedby>
+        <referencedby refid="class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085" compoundref="_game_8cs" startline="150" endline="160">Snake.Game.TryEat</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_snake_1_1_game_1abf97cdaf48baf9d166f116bdba77f962" prot="private" static="no" mutable="no">
+        <type>readonly Random</type>
+        <definition>readonly Random Snake.Game.m_Rnd</definition>
+        <argsstring></argsstring>
+        <name>m_Rnd</name>
+        <briefdescription>
+<para>The random. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="29" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" compoundref="_game_8cs" startline="40" endline="48">Snake.Game.Game</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Snake.Game.Game</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>Game</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The height. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="40" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="40" bodyend="48"/>
+        <references refid="class_snake_1_1_game_1a12e14cdbb5ccab077cb96099b98eed79" compoundref="_game_8cs" startline="27">Snake.Game.m_Food</references>
+        <references refid="class_snake_1_1_game_1add3581587df75e2220076be1829b7bfc" compoundref="_game_8cs" startline="23">Snake.Game.m_Height</references>
+        <references refid="class_snake_1_1_game_1abf97cdaf48baf9d166f116bdba77f962" compoundref="_game_8cs" startline="29">Snake.Game.m_Rnd</references>
+        <references refid="class_snake_1_1_game_1a6dc056d37537ad9e0d1ca49052a33662" compoundref="_game_8cs" startline="25">Snake.Game.m_Snake</references>
+        <references refid="class_snake_1_1_game_1a888cadd0a012125452ebb79eaf0ba452" compoundref="_game_8cs" startline="21">Snake.Game.m_Width</references>
+        <references refid="class_snake_1_1_game_1ae3bcefb730cb41ecfc315da121687315" compoundref="_game_8cs" startline="56" endline="60">Snake.Game.Restart</references>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_game_1ae3bcefb730cb41ecfc315da121687315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Game.Restart</definition>
+        <argsstring>()</argsstring>
+        <name>Restart</name>
+        <briefdescription>
+<para>Restarts this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="56" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="56" bodyend="60"/>
+        <references refid="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" compoundref="_game_8cs" startline="168" endline="178">Snake.Game.GenerateFood</references>
+        <referencedby refid="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" compoundref="_game_8cs" startline="40" endline="48">Snake.Game.Game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_game_1ada55759091b780f152f7e4c362888ae2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Game.Draw</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+<para>Draws the given g. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Graphics to process. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="70" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_game_1a55372fdb6c0351cca92351c5d622a9e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Snake.Game.GetScore</definition>
+        <argsstring>()</argsstring>
+        <name>GetScore</name>
+        <briefdescription>
+<para>Gets the score. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><simplesect kind="return"><para>The score. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="84" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Snake.Game.SnakeHasGrown</definition>
+        <argsstring>()</argsstring>
+        <name>SnakeHasGrown</name>
+        <briefdescription>
+<para>Determines if we can snake has grown. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><simplesect kind="return"><para>True if it succeeds, false if it fails. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="97" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="97" bodyend="111"/>
+        <references refid="class_snake_1_1_snake_1a31479cba3049a1e8371170df81c4eb23" compoundref="_snake_8cs" startline="69">Snake.Snake.Direction</references>
+        <references refid="class_snake_1_1_game_1a6dc056d37537ad9e0d1ca49052a33662" compoundref="_game_8cs" startline="25">Snake.Game.m_Snake</references>
+        <references refid="class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085" compoundref="_game_8cs" startline="150" endline="160">Snake.Game.TryEat</references>
+        <referencedby refid="class_snake_1_1_window_1aea9a1f8d7553baa30e67b58909210415" compoundref="_window_8cs" startline="72" endline="84">Snake.Window.OnTimerTick</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_game_1ae1c3c7687934689be99f9894c609b5cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Snake.Game.Lost</definition>
+        <argsstring>()</argsstring>
+        <name>Lost</name>
+        <briefdescription>
+<para>Losts this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><simplesect kind="return"><para>True if it succeeds, false if it fails. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="121" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="121" bodyend="124"/>
+        <references refid="class_snake_1_1_game_1add3581587df75e2220076be1829b7bfc" compoundref="_game_8cs" startline="23">Snake.Game.m_Height</references>
+        <references refid="class_snake_1_1_game_1a888cadd0a012125452ebb79eaf0ba452" compoundref="_game_8cs" startline="21">Snake.Game.m_Width</references>
+        <referencedby refid="class_snake_1_1_window_1aea9a1f8d7553baa30e67b58909210415" compoundref="_window_8cs" startline="72" endline="84">Snake.Window.OnTimerTick</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_game_1ab7a178dc4a0dfa1af089aecc944fa209" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Game.ChangeSnakeDIrection</definition>
+        <argsstring>(Direction direction)</argsstring>
+        <name>ChangeSnakeDIrection</name>
+        <param>
+          <type><ref refid="namespace_snake_1a17196bbf1b4636022495ef12635a68f7" kindref="member">Direction</ref></type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+<para>Change snake d irection. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The direction. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="134" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="134" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Snake.Game.TryEat</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>TryEat</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to eat an int from the given int. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><simplesect kind="return"><para>True if it succeeds, false if it fails. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="150" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="150" bodyend="160"/>
+        <references refid="class_snake_1_1_snake_1a87e93fe5139973a667ecda894769349f" compoundref="_snake_8cs" startline="118" endline="121">Snake.Snake.CanEat</references>
+        <references refid="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" compoundref="_game_8cs" startline="168" endline="178">Snake.Game.GenerateFood</references>
+        <references refid="class_snake_1_1_game_1a12e14cdbb5ccab077cb96099b98eed79" compoundref="_game_8cs" startline="27">Snake.Game.m_Food</references>
+        <references refid="class_snake_1_1_game_1a6dc056d37537ad9e0d1ca49052a33662" compoundref="_game_8cs" startline="25">Snake.Game.m_Snake</references>
+        <referencedby refid="class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3" compoundref="_game_8cs" startline="97" endline="111">Snake.Game.SnakeHasGrown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Game.GenerateFood</definition>
+        <argsstring>()</argsstring>
+        <name>GenerateFood</name>
+        <briefdescription>
+<para>Generates a food. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="168" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="168" bodyend="178"/>
+        <references refid="class_snake_1_1_snake_1a06b5d8a17c2d94cd6c979cef1c275eda" compoundref="_snake_8cs" startline="148" endline="151">Snake.Snake.Contains</references>
+        <references refid="class_snake_1_1_game_1add3581587df75e2220076be1829b7bfc" compoundref="_game_8cs" startline="23">Snake.Game.m_Height</references>
+        <references refid="class_snake_1_1_game_1a6dc056d37537ad9e0d1ca49052a33662" compoundref="_game_8cs" startline="25">Snake.Game.m_Snake</references>
+        <references refid="class_snake_1_1_game_1a888cadd0a012125452ebb79eaf0ba452" compoundref="_game_8cs" startline="21">Snake.Game.m_Width</references>
+        <referencedby refid="class_snake_1_1_game_1ae3bcefb730cb41ecfc315da121687315" compoundref="_game_8cs" startline="56" endline="60">Snake.Game.Restart</referencedby>
+        <referencedby refid="class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085" compoundref="_game_8cs" startline="150" endline="160">Snake.Game.TryEat</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A game. </para>    </briefdescription>
+    <detaileddescription>
+<para>Jonna, 03-Jul-18. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Snake.Game</label>
+        <link refid="class_snake_1_1_game"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_Snake</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_Food</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Snake.Snake</label>
+        <link refid="class_snake_1_1_snake"/>
+      </node>
+      <node id="3">
+        <label>Snake.Piece</label>
+        <link refid="class_snake_1_1_piece"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="19" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" bodystart="18" bodyend="179"/>
+    <listofallmembers>
+      <member refid="class_snake_1_1_game_1ab7a178dc4a0dfa1af089aecc944fa209" prot="public" virt="non-virtual"><scope>Snake::Game</scope><name>ChangeSnakeDIrection</name></member>
+      <member refid="class_snake_1_1_game_1ada55759091b780f152f7e4c362888ae2" prot="public" virt="non-virtual"><scope>Snake::Game</scope><name>Draw</name></member>
+      <member refid="class_snake_1_1_game_1a16b91396b858683bbf27177137e660da" prot="public" virt="non-virtual"><scope>Snake::Game</scope><name>Game</name></member>
+      <member refid="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" prot="private" virt="non-virtual"><scope>Snake::Game</scope><name>GenerateFood</name></member>
+      <member refid="class_snake_1_1_game_1a55372fdb6c0351cca92351c5d622a9e0" prot="public" virt="non-virtual"><scope>Snake::Game</scope><name>GetScore</name></member>
+      <member refid="class_snake_1_1_game_1ae1c3c7687934689be99f9894c609b5cb" prot="public" virt="non-virtual"><scope>Snake::Game</scope><name>Lost</name></member>
+      <member refid="class_snake_1_1_game_1a12e14cdbb5ccab077cb96099b98eed79" prot="private" virt="non-virtual"><scope>Snake::Game</scope><name>m_Food</name></member>
+      <member refid="class_snake_1_1_game_1add3581587df75e2220076be1829b7bfc" prot="private" virt="non-virtual"><scope>Snake::Game</scope><name>m_Height</name></member>
+      <member refid="class_snake_1_1_game_1abf97cdaf48baf9d166f116bdba77f962" prot="private" virt="non-virtual"><scope>Snake::Game</scope><name>m_Rnd</name></member>
+      <member refid="class_snake_1_1_game_1a6dc056d37537ad9e0d1ca49052a33662" prot="private" virt="non-virtual"><scope>Snake::Game</scope><name>m_Snake</name></member>
+      <member refid="class_snake_1_1_game_1a888cadd0a012125452ebb79eaf0ba452" prot="private" virt="non-virtual"><scope>Snake::Game</scope><name>m_Width</name></member>
+      <member refid="class_snake_1_1_game_1ae3bcefb730cb41ecfc315da121687315" prot="public" virt="non-virtual"><scope>Snake::Game</scope><name>Restart</name></member>
+      <member refid="class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3" prot="public" virt="non-virtual"><scope>Snake::Game</scope><name>SnakeHasGrown</name></member>
+      <member refid="class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085" prot="private" virt="non-virtual"><scope>Snake::Game</scope><name>TryEat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

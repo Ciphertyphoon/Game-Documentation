@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_snake_1_1_program" kind="class" prot="public">
+    <compoundname>Snake::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_snake_1_1_program_1a95b652b4d77b5cd8f09e54d5797b89e3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Snake.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>The main entry point for the application. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Program.cs" line="22" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Program.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="class_snake_1_1_snake" kindref="compound">Snake</ref> <ref refid="class_snake_1_1_program" kindref="compound">Program</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Program.cs" line="17" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Program.cs" bodystart="16" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_snake_1_1_program_1a95b652b4d77b5cd8f09e54d5797b89e3" prot="private" virt="non-virtual"><scope>Snake::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

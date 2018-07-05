@@ -1,0 +1,2573 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'df/d08/class_form';
+  cp-name   = 'Form';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'd8/dae/class_snake_1_1_window';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+  cp-fileline  = '20';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 21;
+        node-label = 'Form';
+      }; /* node */
+      node = {
+        node-id    = 22;
+        node-label = 'Snake.Window';
+        node-link = {
+          node-link-id = 'd8/dae/class_snake_1_1_window';
+        };
+        node-child = {
+          child-id = '21';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 23;
+        node-label = 'Form';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'd5/d72/class_snake_1_1_game';
+  cp-name   = 'Snake::Game';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1a16b91396b858683bbf27177137e660da';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Game';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'width';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'height';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '40';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Constructor. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="width">    The width. </param>
+<param name="height">   The height. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a888cadd0a012125452ebb79eaf0ba452';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'Snake.Game::m_Width';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1add3581587df75e2220076be1829b7bfc';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'Snake.Game::m_Height';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1abf97cdaf48baf9d166f116bdba77f962';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Game::m_Rnd';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a12e14cdbb5ccab077cb96099b98eed79';
+        sec-mem-ref-line = '27';
+        sec-mem-ref-name = 'Snake.Game::m_Food';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae3bcefb730cb41ecfc315da121687315';
+        sec-mem-ref-line = '56';
+        sec-mem-ref-name = 'Snake.Game::Restart';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1ae3bcefb730cb41ecfc315da121687315';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Restart';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '56';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Restarts this object. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1afdb48abfc8554f6b2f4220cadc751879';
+        sec-mem-ref-line = '172';
+        sec-mem-ref-name = 'Snake.Snake::Clear';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a16b91396b858683bbf27177137e660da';
+        sec-mem-ref-line = '40';
+        sec-mem-ref-name = 'Snake.Game::Game';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af9391fc232a8726ba50d284bb23271bb';
+        sec-mem-ref-line = '139';
+        sec-mem-ref-name = 'Snake.Window::OnRestartBtnClick';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1ada55759091b780f152f7e4c362888ae2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Draw';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Graphics
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'g';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '70';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Draws the given g. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="g">    The Graphics to process. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1ae1a73925b1a95fb087c26d87fe16a79f';
+        sec-mem-ref-line = '98';
+        sec-mem-ref-name = 'Snake.Snake::Draw';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a12e14cdbb5ccab077cb96099b98eed79';
+        sec-mem-ref-line = '27';
+        sec-mem-ref-name = 'Snake.Game::m_Food';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1aa6bab7c3218640a9ad730155c9950116';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'Snake.Piece::Draw';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ae50a37d5b61d3704469c2902308d96e3';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'Snake.Window::OnPaint';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1a55372fdb6c0351cca92351c5d622a9e0';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'GetScore';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Gets the score. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<returns>   The score. </returns>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a912fc4449dc3eca0da55238e89ff36aa';
+        sec-mem-ref-line = '61';
+        sec-mem-ref-name = 'Snake.Snake::ScoreLength';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ad7ff8d320d8b689f6c4df5170f922030';
+        sec-mem-ref-line = '58';
+        sec-mem-ref-name = 'Snake.Window::UpdateScore';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'SnakeHasGrown';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '97';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Determines if we can snake has grown. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<returns>   True if it succeeds, false if it fails. </returns>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a31479cba3049a1e8371170df81c4eb23';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'Snake.Snake::Direction';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a5efcd7d64d49bc7f068f2eaae008d085';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'Snake.Game::TryEat';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aea9a1f8d7553baa30e67b58909210415';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'Snake.Window::OnTimerTick';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1ae1c3c7687934689be99f9894c609b5cb';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Lost';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '121';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Losts this object. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<returns>   True if it succeeds, false if it fails. </returns>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a8d02628f982abe0f3ef44adfb1f726f2';
+        sec-mem-ref-line = '45';
+        sec-mem-ref-name = 'Snake.Snake::HeadX';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a888cadd0a012125452ebb79eaf0ba452';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'Snake.Game::m_Width';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a89adce0458550b1b51303177af538219';
+        sec-mem-ref-line = '53';
+        sec-mem-ref-name = 'Snake.Snake::HeadY';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1add3581587df75e2220076be1829b7bfc';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'Snake.Game::m_Height';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a1b5785fedc244882f02fa9145141c432';
+        sec-mem-ref-line = '131';
+        sec-mem-ref-name = 'Snake.Snake::EatsItself';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aea9a1f8d7553baa30e67b58909210415';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'Snake.Window::OnTimerTick';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1ab7a178dc4a0dfa1af089aecc944fa209';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'ChangeSnakeDIrection';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Direction
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'direction';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '134';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Change snake d irection. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="direction">    The direction. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a31479cba3049a1e8371170df81c4eb23';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'Snake.Snake::Direction';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af4974962d6658e8225bd9b840a3fca32';
+        sec-mem-ref-line = '95';
+        sec-mem-ref-name = 'Snake.Window::OnKeyDown';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'TryEat';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '150';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Attempts to eat an int from the given int. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="a">    An int to process. </param>
+<param name="b">    An int to process. </param>
+
+<returns>   True if it succeeds, false if it fails. </returns>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a87e93fe5139973a667ecda894769349f';
+        sec-mem-ref-line = '118';
+        sec-mem-ref-name = 'Snake.Snake::CanEat';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a12e14cdbb5ccab077cb96099b98eed79';
+        sec-mem-ref-line = '27';
+        sec-mem-ref-name = 'Snake.Game::m_Food';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a68e6b4ee9071abc4f25805d920785a19';
+        sec-mem-ref-line = '161';
+        sec-mem-ref-name = 'Snake.Snake::Eat';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a282122ce2c3e9e54a6aaca3f43ed1b44';
+        sec-mem-ref-line = '189';
+        sec-mem-ref-name = 'Snake.Snake::MoveTo';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a923f13e9e2c28d914b83cf28fcb2c7a3';
+        sec-mem-ref-line = '97';
+        sec-mem-ref-name = 'Snake.Game::SnakeHasGrown';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'GenerateFood';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '168';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Generates a food. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1abf97cdaf48baf9d166f116bdba77f962';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Game::m_Rnd';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a888cadd0a012125452ebb79eaf0ba452';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'Snake.Game::m_Width';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1add3581587df75e2220076be1829b7bfc';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'Snake.Game::m_Height';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a6dc056d37537ad9e0d1ca49052a33662';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Snake.Game::m_Snake';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a06b5d8a17c2d94cd6c979cef1c275eda';
+        sec-mem-ref-line = '148';
+        sec-mem-ref-name = 'Snake.Snake::Contains';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a12e14cdbb5ccab077cb96099b98eed79';
+        sec-mem-ref-line = '27';
+        sec-mem-ref-name = 'Snake.Game::m_Food';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a282f8ec07e0127ffe506ba210e76efc8';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Piece::X';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a216699c0710be0b0b42ce568157e51b9';
+        sec-mem-ref-line = '38';
+        sec-mem-ref-name = 'Snake.Piece::Y';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae3bcefb730cb41ecfc315da121687315';
+        sec-mem-ref-line = '56';
+        sec-mem-ref-name = 'Snake.Game::Restart';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a5efcd7d64d49bc7f068f2eaae008d085';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'Snake.Game::TryEat';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1a888cadd0a012125452ebb79eaf0ba452';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Width';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '21';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The width. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a16b91396b858683bbf27177137e660da';
+        sec-mem-ref-line = '40';
+        sec-mem-ref-name = 'Snake.Game::Game';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae1c3c7687934689be99f9894c609b5cb';
+        sec-mem-ref-line = '121';
+        sec-mem-ref-name = 'Snake.Game::Lost';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1add3581587df75e2220076be1829b7bfc';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Height';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '23';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The height. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a16b91396b858683bbf27177137e660da';
+        sec-mem-ref-line = '40';
+        sec-mem-ref-name = 'Snake.Game::Game';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae1c3c7687934689be99f9894c609b5cb';
+        sec-mem-ref-line = '121';
+        sec-mem-ref-name = 'Snake.Game::Lost';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1a6dc056d37537ad9e0d1ca49052a33662';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Snake
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Snake';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '25';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The snake. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a16b91396b858683bbf27177137e660da';
+        sec-mem-ref-line = '40';
+        sec-mem-ref-name = 'Snake.Game::Game';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae3bcefb730cb41ecfc315da121687315';
+        sec-mem-ref-line = '56';
+        sec-mem-ref-name = 'Snake.Game::Restart';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ada55759091b780f152f7e4c362888ae2';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = 'Snake.Game::Draw';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a55372fdb6c0351cca92351c5d622a9e0';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'Snake.Game::GetScore';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a923f13e9e2c28d914b83cf28fcb2c7a3';
+        sec-mem-ref-line = '97';
+        sec-mem-ref-name = 'Snake.Game::SnakeHasGrown';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae1c3c7687934689be99f9894c609b5cb';
+        sec-mem-ref-line = '121';
+        sec-mem-ref-name = 'Snake.Game::Lost';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ab7a178dc4a0dfa1af089aecc944fa209';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'Snake.Game::ChangeSnakeDIrection';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a5efcd7d64d49bc7f068f2eaae008d085';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'Snake.Game::TryEat';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1a12e14cdbb5ccab077cb96099b98eed79';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Piece
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Food';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '27';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The food. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a16b91396b858683bbf27177137e660da';
+        sec-mem-ref-line = '40';
+        sec-mem-ref-name = 'Snake.Game::Game';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ada55759091b780f152f7e4c362888ae2';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = 'Snake.Game::Draw';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a5efcd7d64d49bc7f068f2eaae008d085';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'Snake.Game::TryEat';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd5/d72/class_snake_1_1_game_1abf97cdaf48baf9d166f116bdba77f962';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Random
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Rnd';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The random. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a16b91396b858683bbf27177137e660da';
+        sec-mem-ref-line = '40';
+        sec-mem-ref-name = 'Snake.Game::Game';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+  cp-fileline  = '19';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+<summary>   A game. </summary>
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 25;
+        node-label = 'Snake.Game';
+        node-link = {
+          node-link-id = 'd5/d72/class_snake_1_1_game';
+        };
+        node-child = {
+          child-id = '26';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+-m_Snake
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '27';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+-m_Food
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 26;
+        node-label = 'Snake.Snake';
+        node-link = {
+          node-link-id = 'dd/d78/class_snake_1_1_snake';
+        };
+      }; /* node */
+      node = {
+        node-id    = 27;
+        node-label = 'Snake.Piece';
+        node-link = {
+          node-link-id = 'd9/d8f/class_snake_1_1_piece';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'd9/d8f/class_snake_1_1_piece';
+  cp-name   = 'Snake::Piece';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd9/d8f/class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Piece';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Brush
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'color';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Constructor. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="a">        An int to process. </param>
+<param name="b">        An int to process. </param>
+<param name="color">    The color. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a282f8ec07e0127ffe506ba210e76efc8';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Piece::X';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a216699c0710be0b0b42ce568157e51b9';
+        sec-mem-ref-line = '38';
+        sec-mem-ref-name = 'Snake.Piece::Y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1aa23507020c98306f3397685b8ceaa325';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'Snake.Piece::m_Color';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd9/d8f/class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Draw';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Graphics
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'g';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs';
+      sec-mem-desc-line = '65';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Draws the given g. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="g">    The Graphics to process. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1aa23507020c98306f3397685b8ceaa325';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'Snake.Piece::m_Color';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a282f8ec07e0127ffe506ba210e76efc8';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Piece::X';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a0b060fe73837e293df54638df8767686';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'Snake.Piece::SIDE';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a216699c0710be0b0b42ce568157e51b9';
+        sec-mem-ref-line = '38';
+        sec-mem-ref-name = 'Snake.Piece::Y';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ada55759091b780f152f7e4c362888ae2';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = 'Snake.Game::Draw';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'property';
+    sec-member = {
+      sec-mem-kind = 'property';
+      sec-mem-id   = 'd9/d8f/class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'X';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs';
+      sec-mem-desc-line = '30';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Gets or sets the x coordinate. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<value> The x coordinate. </value>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a9bad54ea0c86794e056c58433b966f28';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'Snake.Piece::Piece';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1aa6bab7c3218640a9ad730155c9950116';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'Snake.Piece::Draw';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a87e93fe5139973a667ecda894769349f';
+        sec-mem-ref-line = '118';
+        sec-mem-ref-name = 'Snake.Snake::CanEat';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a68e6b4ee9071abc4f25805d920785a19';
+        sec-mem-ref-line = '161';
+        sec-mem-ref-name = 'Snake.Snake::Eat';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'property';
+      sec-mem-id   = 'd9/d8f/class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Y';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs';
+      sec-mem-desc-line = '38';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Gets or sets the y coordinate. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<value> The y coordinate. </value>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a9bad54ea0c86794e056c58433b966f28';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'Snake.Piece::Piece';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1aa6bab7c3218640a9ad730155c9950116';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'Snake.Piece::Draw';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a87e93fe5139973a667ecda894769349f';
+        sec-mem-ref-line = '118';
+        sec-mem-ref-name = 'Snake.Snake::CanEat';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/ddb/_snake_8cs_1a68e6b4ee9071abc4f25805d920785a19';
+        sec-mem-ref-line = '161';
+        sec-mem-ref-name = 'Snake.Snake::Eat';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-static-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd9/d8f/class_snake_1_1_piece_1a0b060fe73837e293df54638df8767686';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'SIDE';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 25
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The side. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1aa6bab7c3218640a9ad730155c9950116';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'Snake.Piece::Draw';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd9/d8f/class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Brush
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Color';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs';
+      sec-mem-desc-line = '22';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The color. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a9bad54ea0c86794e056c58433b966f28';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'Snake.Piece::Piece';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1aa6bab7c3218640a9ad730155c9950116';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'Snake.Piece::Draw';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs';
+  cp-fileline  = '18';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+<summary>   A piece. </summary>
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 29;
+        node-label = 'Snake.Piece';
+        node-link = {
+          node-link-id = 'd9/d8f/class_snake_1_1_piece';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'd7/da1/class_snake_1_1_program';
+  cp-name   = 'Snake::Program';
+  cp-section = {
+    sec-kind = 'private-static-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd7/da1/class_snake_1_1_program_1a95b652b4d77b5cd8f09e54d5797b89e3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+static void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Main';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Program.cs';
+      sec-mem-desc-line = '22';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>
+The main entry point for the application.
+</summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+  
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Program.cs';
+  cp-fileline  = '17';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+<summary>
+Class Snake Program.
+</summary>
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+  
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 31;
+        node-label = 'Snake.Program';
+        node-link = {
+          node-link-id = 'd7/da1/class_snake_1_1_program';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'dd/d78/class_snake_1_1_snake';
+  cp-name   = 'Snake::Snake';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a8380566e1a2f23802f4656a72da76412';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Snake';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Brush
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'color';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Constructor. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="color">    The color. </param>
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1ae1a73925b1a95fb087c26d87fe16a79f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Draw';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Graphics
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'g';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '98';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Draws the given g. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="g">    The Graphics to process. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ada55759091b780f152f7e4c362888ae2';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = 'Snake.Game::Draw';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a87e93fe5139973a667ecda894769349f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CanEat';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Piece
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'food';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '118';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Determine if we can eat. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="a">    An int to process. </param>
+<param name="b">    An int to process. </param>
+<param name="food"> The food. </param>
+
+<returns>   True if we can eat, false if not. </returns>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a282f8ec07e0127ffe506ba210e76efc8';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Piece::X';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a216699c0710be0b0b42ce568157e51b9';
+        sec-mem-ref-line = '38';
+        sec-mem-ref-name = 'Snake.Piece::Y';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a5efcd7d64d49bc7f068f2eaae008d085';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'Snake.Game::TryEat';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a1b5785fedc244882f02fa9145141c432';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'EatsItself';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '131';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Determines if we can eats itself. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<returns>   True if it succeeds, false if it fails. </returns>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae1c3c7687934689be99f9894c609b5cb';
+        sec-mem-ref-line = '121';
+        sec-mem-ref-name = 'Snake.Game::Lost';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a06b5d8a17c2d94cd6c979cef1c275eda';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Contains';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '148';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Query if this object contains the given a. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="a">    An int to process. </param>
+<param name="b">    An int to process. </param>
+
+<returns>   True if the object is in this collection, false if not. </returns>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ad398a631e2e19d4782c0904ed1af1052';
+        sec-mem-ref-line = '168';
+        sec-mem-ref-name = 'Snake.Game::GenerateFood';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a68e6b4ee9071abc4f25805d920785a19';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Eat';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Piece
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'food';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '161';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Eats the given food. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="food"> The food. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a282f8ec07e0127ffe506ba210e76efc8';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Piece::X';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a216699c0710be0b0b42ce568157e51b9';
+        sec-mem-ref-line = '38';
+        sec-mem-ref-name = 'Snake.Piece::Y';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a5efcd7d64d49bc7f068f2eaae008d085';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'Snake.Game::TryEat';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1afdb48abfc8554f6b2f4220cadc751879';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Clear';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '172';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Clears this object to its blank/initial state. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae3bcefb730cb41ecfc315da121687315';
+        sec-mem-ref-line = '56';
+        sec-mem-ref-name = 'Snake.Game::Restart';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a282122ce2c3e9e54a6aaca3f43ed1b44';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'MoveTo';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'a';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'b';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '189';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Move to. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="a">    An int to process. </param>
+<param name="b">    An int to process. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a5efcd7d64d49bc7f068f2eaae008d085';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'Snake.Game::TryEat';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a8d02628f982abe0f3ef44adfb1f726f2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'HeadX';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+=> m_Pieces.Last().X
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '45';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Gets the head x coordinate. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<value> The head x coordinate. </value>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae1c3c7687934689be99f9894c609b5cb';
+        sec-mem-ref-line = '121';
+        sec-mem-ref-name = 'Snake.Game::Lost';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a89adce0458550b1b51303177af538219';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'HeadY';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+=> m_Pieces.Last().Y
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '53';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Gets the head y coordinate. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<value> The head y coordinate. </value>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae1c3c7687934689be99f9894c609b5cb';
+        sec-mem-ref-line = '121';
+        sec-mem-ref-name = 'Snake.Game::Lost';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a912fc4449dc3eca0da55238e89ff36aa';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'ScoreLength';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+=> m_Pieces.Count - 2
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '61';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Gets the length of the score. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<value> The length of the score. </value>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a55372fdb6c0351cca92351c5d622a9e0';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'Snake.Game::GetScore';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'property';
+    sec-member = {
+      sec-mem-kind = 'property';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a31479cba3049a1e8371170df81c4eb23';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Direction
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Direction';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Gets or sets the direction. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<value> The direction. </value>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a923f13e9e2c28d914b83cf28fcb2c7a3';
+        sec-mem-ref-line = '97';
+        sec-mem-ref-name = 'Snake.Game::SnakeHasGrown';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ab7a178dc4a0dfa1af089aecc944fa209';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'Snake.Game::ChangeSnakeDIrection';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a23154b222280aed8648914f592a0be7a';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Queue< Piece >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Pieces';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '72';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The pieces. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'dd/d78/class_snake_1_1_snake_1a3d10b9f81a7c8e6e7b8cd9263c018125';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Brush
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Color';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      sec-mem-desc-line = '74';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The color. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+  cp-fileline  = '38';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+<summary>   A snake. </summary>
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 33;
+        node-label = 'Snake.Snake';
+        node-link = {
+          node-link-id = 'dd/d78/class_snake_1_1_snake';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'd8/dae/class_snake_1_1_window';
+  cp-name   = 'Snake::Window';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'df/d08/class_form';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1ab6ea319a57aaf8656b86df24bab0f810';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Window';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '42';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Default constructor. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1a89c7994cf627a96ff1d1a1a3cd0ea93e';
+        sec-mem-ref-line = '32';
+        sec-mem-ref-name = 'Snake.Window::m_GameField';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1a9062ddbb391d972a1d4463c9dffb92ed';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'Snake.Window::WIDTH';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd1/dec/_piece_8cs_1a0b060fe73837e293df54638df8767686';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'Snake.Piece::SIDE';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ad3db1ce4b9762bfe200fc4edaa82c7be';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'Snake.Window::HEIGHT';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab9d41c8c542f96d4b3b5e24eceb44353';
+        sec-mem-ref-line = '34';
+        sec-mem-ref-name = 'Snake.Window::m_GameGraphics';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a38ed1fb52b0f48ca9ee4d472d4b06974';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'Snake.Window::m_RestartBtn';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aeee75245fe3e664d795f65afe73de094';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Window::m_Game';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1ae36d16241edd7f753134d34119b66067';
+        sec-mem-ref-line = '83';
+        sec-mem-ref-name = 'Snake.Window::m_Timer';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1aeb80b0d2ae454bee60c5b587574884d6';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+override void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Dispose';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'disposing';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.Designer.cs';
+      sec-mem-desc-line = '14';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>
+Clean up any resources being used.
+</summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>  
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1aeb5780622794e2bb196f67adfdaa7b55';
+        sec-mem-ref-line = '8';
+        sec-mem-ref-name = 'Snake.Window::components';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1ad7ff8d320d8b689f6c4df5170f922030';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'UpdateScore';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '58';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Updates the score. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a59d59b9c267f75b0c4b565454f520714';
+        sec-mem-ref-line = '85';
+        sec-mem-ref-name = 'Snake.Window::scoreLbl';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1a0337ab5c01feaab19ef7a417a008e894';
+        sec-mem-ref-line = '26';
+        sec-mem-ref-name = 'Snake.Window::SCORE_STRING';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aeee75245fe3e664d795f65afe73de094';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Window::m_Game';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a55372fdb6c0351cca92351c5d622a9e0';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'Snake.Game::GetScore';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aea9a1f8d7553baa30e67b58909210415';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'Snake.Window::OnTimerTick';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af9391fc232a8726ba50d284bb23271bb';
+        sec-mem-ref-line = '139';
+        sec-mem-ref-name = 'Snake.Window::OnRestartBtnClick';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1aea9a1f8d7553baa30e67b58909210415';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'OnTimerTick';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+EventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '72';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Raises the timer tick event. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="sender">   Source of the event. </param>
+<param name="e">        Event information to send to registered event handlers. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aeee75245fe3e664d795f65afe73de094';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Window::m_Game';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1a923f13e9e2c28d914b83cf28fcb2c7a3';
+        sec-mem-ref-line = '97';
+        sec-mem-ref-name = 'Snake.Game::SnakeHasGrown';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ad7ff8d320d8b689f6c4df5170f922030';
+        sec-mem-ref-line = '58';
+        sec-mem-ref-name = 'Snake.Window::UpdateScore';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae1c3c7687934689be99f9894c609b5cb';
+        sec-mem-ref-line = '121';
+        sec-mem-ref-name = 'Snake.Game::Lost';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1ae36d16241edd7f753134d34119b66067';
+        sec-mem-ref-line = '83';
+        sec-mem-ref-name = 'Snake.Window::m_Timer';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a38ed1fb52b0f48ca9ee4d472d4b06974';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'Snake.Window::m_RestartBtn';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1af4974962d6658e8225bd9b840a3fca32';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'OnKeyDown';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+KeyEventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '95';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Raises the key event. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="sender">   Source of the event. </param>
+<param name="e">        Event information to send to registered event handlers. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aeee75245fe3e664d795f65afe73de094';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Window::m_Game';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ab7a178dc4a0dfa1af089aecc944fa209';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'Snake.Game::ChangeSnakeDIrection';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1ae50a37d5b61d3704469c2902308d96e3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'OnPaint';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PaintEventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '123';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Paints this window. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="sender">   Source of the event. </param>
+<param name="e">        Event information to send to registered event handlers. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab9d41c8c542f96d4b3b5e24eceb44353';
+        sec-mem-ref-line = '34';
+        sec-mem-ref-name = 'Snake.Window::m_GameGraphics';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab061ad97897287fd387ab3257afbc027';
+        sec-mem-ref-line = '28';
+        sec-mem-ref-name = 'Snake.Window::m_BackgroundColor';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aeee75245fe3e664d795f65afe73de094';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Window::m_Game';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ada55759091b780f152f7e4c362888ae2';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = 'Snake.Game::Draw';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1a89c7994cf627a96ff1d1a1a3cd0ea93e';
+        sec-mem-ref-line = '32';
+        sec-mem-ref-name = 'Snake.Window::m_GameField';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a38ed1fb52b0f48ca9ee4d472d4b06974';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'Snake.Window::m_RestartBtn';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1af9391fc232a8726ba50d284bb23271bb';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'OnRestartBtnClick';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+object
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+EventArgs
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'e';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '139';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Raises the restart button click event. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+
+<param name="sender">   Source of the event. </param>
+<param name="e">        Event information to send to registered event handlers. </param>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a38ed1fb52b0f48ca9ee4d472d4b06974';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'Snake.Window::m_RestartBtn';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aeee75245fe3e664d795f65afe73de094';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'Snake.Window::m_Game';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dcb/_game_8cs_1ae3bcefb730cb41ecfc315da121687315';
+        sec-mem-ref-line = '56';
+        sec-mem-ref-name = 'Snake.Game::Restart';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ad7ff8d320d8b689f6c4df5170f922030';
+        sec-mem-ref-line = '58';
+        sec-mem-ref-name = 'Snake.Window::UpdateScore';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1ae36d16241edd7f753134d34119b66067';
+        sec-mem-ref-line = '83';
+        sec-mem-ref-name = 'Snake.Window::m_Timer';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1a2291066b4718678884b7d69ae8360407';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'InitializeComponent';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.Designer.cs';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+</summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+  
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1aeb5780622794e2bb196f67adfdaa7b55';
+        sec-mem-ref-line = '8';
+        sec-mem-ref-name = 'Snake.Window::components';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1ae36d16241edd7f753134d34119b66067';
+        sec-mem-ref-line = '83';
+        sec-mem-ref-name = 'Snake.Window::m_Timer';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a38ed1fb52b0f48ca9ee4d472d4b06974';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'Snake.Window::m_RestartBtn';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a59d59b9c267f75b0c4b565454f520714';
+        sec-mem-ref-line = '85';
+        sec-mem-ref-name = 'Snake.Window::scoreLbl';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aea9a1f8d7553baa30e67b58909210415';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'Snake.Window::OnTimerTick';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af9391fc232a8726ba50d284bb23271bb';
+        sec-mem-ref-line = '139';
+        sec-mem-ref-name = 'Snake.Window::OnRestartBtnClick';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ae50a37d5b61d3704469c2902308d96e3';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'Snake.Window::OnPaint';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af4974962d6658e8225bd9b840a3fca32';
+        sec-mem-ref-line = '95';
+        sec-mem-ref-name = 'Snake.Window::OnKeyDown';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1a9062ddbb391d972a1d4463c9dffb92ed';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'WIDTH';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 12
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '22';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The width. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1ad3db1ce4b9762bfe200fc4edaa82c7be';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'HEIGHT';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 16
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '24';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The height. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1a0337ab5c01feaab19ef7a417a008e894';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'SCORE_STRING';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Score: {0}"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The score string. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ad7ff8d320d8b689f6c4df5170f922030';
+        sec-mem-ref-line = '58';
+        sec-mem-ref-name = 'Snake.Window::UpdateScore';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1ab061ad97897287fd387ab3257afbc027';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Color
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_BackgroundColor';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= Color.CornflowerBlue
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '28';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The background color. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ae50a37d5b61d3704469c2902308d96e3';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'Snake.Window::OnPaint';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1aeee75245fe3e664d795f65afe73de094';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Game
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Game';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '30';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The game. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ad7ff8d320d8b689f6c4df5170f922030';
+        sec-mem-ref-line = '58';
+        sec-mem-ref-name = 'Snake.Window::UpdateScore';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aea9a1f8d7553baa30e67b58909210415';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'Snake.Window::OnTimerTick';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af4974962d6658e8225bd9b840a3fca32';
+        sec-mem-ref-line = '95';
+        sec-mem-ref-name = 'Snake.Window::OnKeyDown';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ae50a37d5b61d3704469c2902308d96e3';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'Snake.Window::OnPaint';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af9391fc232a8726ba50d284bb23271bb';
+        sec-mem-ref-line = '139';
+        sec-mem-ref-name = 'Snake.Window::OnRestartBtnClick';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1a89c7994cf627a96ff1d1a1a3cd0ea93e';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Bitmap
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_GameField';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '32';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The game field. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ae50a37d5b61d3704469c2902308d96e3';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'Snake.Window::OnPaint';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1ab9d41c8c542f96d4b3b5e24eceb44353';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+readonly Graphics
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_GameGraphics';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+      sec-mem-desc-line = '34';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   The game graphics. </summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ae50a37d5b61d3704469c2902308d96e3';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'Snake.Window::OnPaint';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1aeb5780622794e2bb196f67adfdaa7b55';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+System.ComponentModel.IContainer
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'components';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= null
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.Designer.cs';
+      sec-mem-desc-line = '8';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>
+Required designer variable.
+</summary>
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+  
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1aeb80b0d2ae454bee60c5b587574884d6';
+        sec-mem-ref-line = '14';
+        sec-mem-ref-name = 'Snake.Window::Dispose';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1ae36d16241edd7f753134d34119b66067';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+System.Windows.Forms.Timer
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_Timer';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.Designer.cs';
+      sec-mem-desc-line = '83';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aea9a1f8d7553baa30e67b58909210415';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'Snake.Window::OnTimerTick';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af9391fc232a8726ba50d284bb23271bb';
+        sec-mem-ref-line = '139';
+        sec-mem-ref-name = 'Snake.Window::OnRestartBtnClick';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1a38ed1fb52b0f48ca9ee4d472d4b06974';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+System.Windows.Forms.Button
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_RestartBtn';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.Designer.cs';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ab6ea319a57aaf8656b86df24bab0f810';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Snake.Window::Window';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1aea9a1f8d7553baa30e67b58909210415';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'Snake.Window::OnTimerTick';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ae50a37d5b61d3704469c2902308d96e3';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'Snake.Window::OnPaint';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1af9391fc232a8726ba50d284bb23271bb';
+        sec-mem-ref-line = '139';
+        sec-mem-ref-name = 'Snake.Window::OnRestartBtnClick';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/dae/class_snake_1_1_window_1a59d59b9c267f75b0c4b565454f520714';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+System.Windows.Forms.Label
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'scoreLbl';
+      sec-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.Designer.cs';
+      sec-mem-desc-line = '85';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd7/ddf/_window_8cs_1ad7ff8d320d8b689f6c4df5170f922030';
+        sec-mem-ref-line = '58';
+        sec-mem-ref-name = 'Snake.Window::UpdateScore';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/dc4/_window_8_designer_8cs_1a2291066b4718678884b7d69ae8360407';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'Snake.Window::InitializeComponent';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+  cp-fileline  = '20';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+<summary>   A window. </summary>
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 35;
+        node-label = 'Form';
+      }; /* node */
+      node = {
+        node-id    = 34;
+        node-label = 'Snake.Window';
+        node-link = {
+          node-link-id = 'd8/dae/class_snake_1_1_window';
+        };
+        node-child = {
+          child-id = '35';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 37;
+        node-label = 'Form';
+      }; /* node */
+      node = {
+        node-id    = 36;
+        node-label = 'Snake.Window';
+        node-link = {
+          node-link-id = 'd8/dae/class_snake_1_1_window';
+        };
+        node-child = {
+          child-id = '37';
+          relation = public-inheritance;
+        }; /* node-child */
+        node-child = {
+          child-id = '38';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+-scoreLbl
+-m_Timer
+-components
+-m_RestartBtn
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '39';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+-m_Game
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 38;
+        node-label = 'System';
+      }; /* node */
+      node = {
+        node-id    = 39;
+        node-label = 'Snake.Game';
+        node-link = {
+          node-link-id = 'd5/d72/class_snake_1_1_game';
+        };
+        node-child = {
+          child-id = '40';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+-m_Snake
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '41';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+-m_Food
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 40;
+        node-label = 'Snake.Snake';
+        node-link = {
+          node-link-id = 'dd/d78/class_snake_1_1_snake';
+        };
+      }; /* node */
+      node = {
+        node-id    = 41;
+        node-label = 'Snake.Piece';
+        node-link = {
+          node-link-id = 'd9/d8f/class_snake_1_1_piece';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = 'dc/dcb/_game_8cs';
+  file-name = 'Game.cs';
+  file-full-name  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'd1/dec/_piece_8cs';
+  file-name = 'Piece.cs';
+  file-full-name  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'dd/d5c/_program_8cs';
+  file-name = 'Program.cs';
+  file-full-name  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Program.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'de/ddb/_snake_8cs';
+  file-name = 'Snake.cs';
+    enum = {
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = 'd2/d3b/namespace_snake_1a17196bbf1b4636022495ef12635a68f7';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'Direction';
+      enum-mem-enum = { enum-name = Down; };
+      enum-mem-enum = { enum-name = Up; };
+      enum-mem-enum = { enum-name = Right; };
+      enum-mem-enum = { enum-name = Left; };
+      enum-mem-desc-file = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+      enum-mem-desc-line = '20';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+<summary>   Values that represent directions. </summary>
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+<remarks>   Jonna, 03-Jul-18. </remarks>
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    };
+  file-full-name  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'd7/ddf/_window_8cs';
+  file-name = 'Window.cs';
+  file-full-name  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'de/dc4/_window_8_designer_8cs';
+  file-name = 'Window.Designer.cs';
+  file-full-name  = 'D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Window.Designer.cs';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */

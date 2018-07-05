@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dir_375c0016b797f80cb1318c1df39dde9d">
+    <title>D:/Segment/DOTNET/Workspaces/Users/jonna Directory Reference</title>
+<para>Directory dependency diagram for D:/Segment/DOTNET/Workspaces/Users/jonna</para>
+<para>
+    <figure>
+        <title>Directory Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../dir_375c0016b797f80cb1318c1df39dde9d_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <simplesect>
+            <title> Directories </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>dir <link linkend="dir_c72985a7a8fa9390c437da912bde6f19">D:/Segment/DOTNET/Workspaces/Users/jonna/source</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Directory location is D:/Segment/DOTNET/Workspaces/Users/jonna/</para>
+    </simplesect>
+</section>

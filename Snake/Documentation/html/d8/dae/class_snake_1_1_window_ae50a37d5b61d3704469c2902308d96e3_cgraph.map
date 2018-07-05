@@ -1,0 +1,5 @@
+<map id="Snake.Window.OnPaint" name="Snake.Window.OnPaint">
+<area shape="rect" id="node2" href="$d5/d72/class_snake_1_1_game.html#ada55759091b780f152f7e4c362888ae2" title="Draws the given g. " alt="" coords="213,31,344,57"/>
+<area shape="rect" id="node3" href="$dd/d78/class_snake_1_1_snake.html#ae1a73925b1a95fb087c26d87fe16a79f" title="Draws the given g. " alt="" coords="392,5,525,32"/>
+<area shape="rect" id="node4" href="$d9/d8f/class_snake_1_1_piece.html#aa6bab7c3218640a9ad730155c9950116" title="Draws the given g. " alt="" coords="394,56,523,83"/>
+</map>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_snake_1_1_piece" kind="class" prot="public">
+    <compoundname>Snake::Piece</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_snake_1_1_piece_1a0b060fe73837e293df54638df8767686" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Snake.Piece.SIDE</definition>
+        <argsstring></argsstring>
+        <name>SIDE</name>
+        <initializer>= 25</initializer>
+        <briefdescription>
+<para>The side. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" line="20" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" compoundref="_piece_8cs" startline="65" endline="68">Snake.Piece.Draw</referencedby>
+        <referencedby refid="class_snake_1_1_window_1ab6ea319a57aaf8656b86df24bab0f810" compoundref="_window_8cs" startline="42" endline="50">Snake.Window.Window</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" prot="private" static="no" mutable="no">
+        <type>readonly Brush</type>
+        <definition>readonly Brush Snake.Piece.m_Color</definition>
+        <argsstring></argsstring>
+        <name>m_Color</name>
+        <briefdescription>
+<para>The color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" line="22" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" compoundref="_piece_8cs" startline="65" endline="68">Snake.Piece.Draw</referencedby>
+        <referencedby refid="class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28" compoundref="_piece_8cs" startline="50" endline="55">Snake.Piece.Piece</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Snake.Piece.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+<para>Gets or sets the x coordinate. </para>        </briefdescription>
+        <detaileddescription>
+<para>The x coordinate. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" line="30" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" compoundref="_piece_8cs" startline="65" endline="68">Snake.Piece.Draw</referencedby>
+        <referencedby refid="class_snake_1_1_snake_1a68e6b4ee9071abc4f25805d920785a19" compoundref="_snake_8cs" startline="161" endline="164">Snake.Snake.Eat</referencedby>
+        <referencedby refid="class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28" compoundref="_piece_8cs" startline="50" endline="55">Snake.Piece.Piece</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Snake.Piece.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+<para>Gets or sets the y coordinate. </para>        </briefdescription>
+        <detaileddescription>
+<para>The y coordinate. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" line="38" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" compoundref="_piece_8cs" startline="65" endline="68">Snake.Piece.Draw</referencedby>
+        <referencedby refid="class_snake_1_1_snake_1a68e6b4ee9071abc4f25805d920785a19" compoundref="_snake_8cs" startline="161" endline="164">Snake.Snake.Eat</referencedby>
+        <referencedby refid="class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28" compoundref="_piece_8cs" startline="50" endline="55">Snake.Piece.Piece</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Snake.Piece.Piece</definition>
+        <argsstring>(int a, int b, Brush color)</argsstring>
+        <name>Piece</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>Brush</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" line="50" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" bodystart="50" bodyend="55"/>
+        <references refid="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" compoundref="_piece_8cs" startline="22">Snake.Piece.m_Color</references>
+        <references refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" compoundref="_piece_8cs" startline="30">Snake.Piece.X</references>
+        <references refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" compoundref="_piece_8cs" startline="38">Snake.Piece.Y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Piece.Draw</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+<para>Draws the given g. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Graphics to process. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" line="65" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" bodystart="65" bodyend="68"/>
+        <references refid="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" compoundref="_piece_8cs" startline="22">Snake.Piece.m_Color</references>
+        <references refid="class_snake_1_1_piece_1a0b060fe73837e293df54638df8767686" compoundref="_piece_8cs" startline="20">Snake.Piece.SIDE</references>
+        <references refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" compoundref="_piece_8cs" startline="30">Snake.Piece.X</references>
+        <references refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" compoundref="_piece_8cs" startline="38">Snake.Piece.Y</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A piece. </para>    </briefdescription>
+    <detaileddescription>
+<para>Jonna, 03-Jul-18. </para>    </detaileddescription>
+    <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" line="18" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs" bodystart="17" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" prot="public" virt="non-virtual"><scope>Snake::Piece</scope><name>Draw</name></member>
+      <member refid="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" prot="private" virt="non-virtual"><scope>Snake::Piece</scope><name>m_Color</name></member>
+      <member refid="class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28" prot="public" virt="non-virtual"><scope>Snake::Piece</scope><name>Piece</name></member>
+      <member refid="class_snake_1_1_piece_1a0b060fe73837e293df54638df8767686" prot="public" virt="non-virtual"><scope>Snake::Piece</scope><name>SIDE</name></member>
+      <member refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" prot="public" virt="non-virtual"><scope>Snake::Piece</scope><name>X</name></member>
+      <member refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" prot="public" virt="non-virtual"><scope>Snake::Piece</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

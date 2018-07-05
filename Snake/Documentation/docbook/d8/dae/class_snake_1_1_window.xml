@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/dae/class_snake_1_1_window">
+<title>Snake::Window class Reference</title>
+<para>Inheritance diagram for Snake::Window</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d1/d02/class_snake_1_1_window__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Snake::Window</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d4/d19/class_snake_1_1_window__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const int WIDTH<para><emphasis>&lt;summary&gt;   The width. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const int HEIGHT<para><emphasis>&lt;summary&gt;   The height. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const string SCORE_STRING<para><emphasis>&lt;summary&gt;   The score string. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Color m_BackgroundColor<para><emphasis>&lt;summary&gt;   The background color. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Game m_Game<para><emphasis>&lt;summary&gt;   The game. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Bitmap m_GameField<para><emphasis>&lt;summary&gt;   The game field. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Graphics m_GameGraphics<para><emphasis>&lt;summary&gt;   The game graphics. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.ComponentModel.IContainer components<para><emphasis>&lt;summary&gt;
+Required designer variable.
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Timer m_Timer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Button m_RestartBtn</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Label scoreLbl</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/dae/class_snake_1_1_window_1ab6ea319a57aaf8656b86df24bab0f810">Window</link> (
+)<para><emphasis>&lt;summary&gt;   Default constructor. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/dae/class_snake_1_1_window_1ad7ff8d320d8b689f6c4df5170f922030">UpdateScore</link> (
+)<para><emphasis>&lt;summary&gt;   Updates the score. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/dae/class_snake_1_1_window_1aea9a1f8d7553baa30e67b58909210415">OnTimerTick</link> (
+object sender, EventArgs e)<para><emphasis>&lt;summary&gt;   Raises the timer tick event. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/dae/class_snake_1_1_window_1af4974962d6658e8225bd9b840a3fca32">OnKeyDown</link> (
+object sender, KeyEventArgs e)<para><emphasis>&lt;summary&gt;   Raises the key event. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/dae/class_snake_1_1_window_1ae50a37d5b61d3704469c2902308d96e3">OnPaint</link> (
+object sender, PaintEventArgs e)<para><emphasis>&lt;summary&gt;   Paints this window. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/dae/class_snake_1_1_window_1af9391fc232a8726ba50d284bb23271bb">OnRestartBtnClick</link> (
+object sender, EventArgs e)<para><emphasis>&lt;summary&gt;   Raises the restart button click event. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/dae/class_snake_1_1_window_1a2291066b4718678884b7d69ae8360407">InitializeComponent</link> (
+)<para><emphasis>&lt;summary&gt;
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="d8/dae/class_snake_1_1_window_1aeb80b0d2ae454bee60c5b587574884d6">Dispose</link> (
+bool disposing)<para><emphasis>&lt;summary&gt;
+Clean up any resources being used.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A window. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Jonna, 03-Jul-18. </para>
+                <para>Definition at line 20 of file Window.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Field Documentation</title>
+            <simplesect>
+                <title>const int Snake.Window.WIDTH</title>                
+                <para>Definition at line 22 of file Window.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>const int Snake.Window.HEIGHT</title>                
+                <para>Definition at line 24 of file Window.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>const string Snake.Window.SCORE_STRING</title>                
+                <para>Definition at line 26 of file Window.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly Color Snake.Window.m_BackgroundColor</title>                
+                <para>Definition at line 28 of file Window.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly Game Snake.Window.m_Game</title>                
+                <para>Definition at line 30 of file Window.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly Bitmap Snake.Window.m_GameField</title>                
+                <para>Definition at line 32 of file Window.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly Graphics Snake.Window.m_GameGraphics</title>                
+                <para>Definition at line 34 of file Window.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>System.ComponentModel.IContainer Snake.Window.components</title>                
+                <para>Definition at line 8 of file Window.Designer.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Window.Designer.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="d8/dae/class_snake_1_1_window_1ab6ea319a57aaf8656b86df24bab0f810">
+                <title>Snake.Window.Window ()</title> <emphasis>&lt;summary&gt;   Default constructor. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+            </section>
+            <section xml:id="d8/dae/class_snake_1_1_window_1ad7ff8d320d8b689f6c4df5170f922030">
+                <title>void Snake.Window.UpdateScore ()</title> <emphasis>&lt;summary&gt;   Updates the score. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+            </section>
+            <section xml:id="d8/dae/class_snake_1_1_window_1aea9a1f8d7553baa30e67b58909210415">
+                <title>void Snake.Window.OnTimerTick (object sender, EventArgs e)</title> <emphasis>&lt;summary&gt;   Raises the timer tick event. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>sender</entry>
+                                <entry>
+<para>Source of the event. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>e</entry>
+                                <entry>
+<para>Event information to send to registered event handlers. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d8/dae/class_snake_1_1_window_1af4974962d6658e8225bd9b840a3fca32">
+                <title>void Snake.Window.OnKeyDown (object sender, KeyEventArgs e)</title> <emphasis>&lt;summary&gt;   Raises the key event. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>sender</entry>
+                                <entry>
+<para>Source of the event. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>e</entry>
+                                <entry>
+<para>Event information to send to registered event handlers. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d8/dae/class_snake_1_1_window_1ae50a37d5b61d3704469c2902308d96e3">
+                <title>void Snake.Window.OnPaint (object sender, PaintEventArgs e)</title> <emphasis>&lt;summary&gt;   Paints this window. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>sender</entry>
+                                <entry>
+<para>Source of the event. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>e</entry>
+                                <entry>
+<para>Event information to send to registered event handlers. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d8/dae/class_snake_1_1_window_1af9391fc232a8726ba50d284bb23271bb">
+                <title>void Snake.Window.OnRestartBtnClick (object sender, EventArgs e)</title> <emphasis>&lt;summary&gt;   Raises the restart button click event. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>sender</entry>
+                                <entry>
+<para>Source of the event. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>e</entry>
+                                <entry>
+<para>Event information to send to registered event handlers. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="d8/dae/class_snake_1_1_window_1a2291066b4718678884b7d69ae8360407">
+                <title>void Snake.Window.InitializeComponent ()</title> <emphasis>&lt;summary&gt;
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="d8/dae/class_snake_1_1_window_1aeb80b0d2ae454bee60c5b587574884d6">
+                <title>override void Snake.Window.Dispose (bool disposing)</title> <emphasis>&lt;summary&gt;
+Clean up any resources being used.
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>disposing</entry>
+                                <entry>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

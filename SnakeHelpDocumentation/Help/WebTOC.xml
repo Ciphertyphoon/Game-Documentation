@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/1a6f0300-26ac-457c-9b93-548edecf927d.htm" />
+  <HelpTOCNode Id="a649ede7-e231-4c44-bd3f-f3fd201baeaa" Title="Version History" Url="html/d3548954-0a17-4dc4-8f28-89b3bde4363f.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/55a21860-2272-4c56-93dc-b9cb988f30b8.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="20fef1c1-8e7e-428a-852d-20eb081e2acd" Title="Snake" Url="html/ef8d33e2-a91c-d127-1cc2-edc559e8133c.htm">
+    <HelpTOCNode Title="Direction Enumeration" Url="html/ae69e090-b1bb-48e4-c08c-8f143fdc3442.htm" />
+    <HelpTOCNode Id="f54eb6c6-0d99-488a-bdfb-03084050cd3d" Title="Game Class" Url="html/70dc08a9-3e08-4d20-28d3-e4c0b5fc71ae.htm">
+      <HelpTOCNode Title="Game Constructor " Url="html/0990ceb2-8b11-b5ba-86e2-c09c53389c20.htm" />
+      <HelpTOCNode Id="bad14aeb-dd3b-4c4a-be71-02ffd02bf855" Title="Game Methods" Url="html/7ca679eb-ee8d-6634-1138-95ef6fa2ca69.htm">
+        <HelpTOCNode Title="ChangeSnakeDIrection Method " Url="html/3e60d28f-2c73-da35-5423-004ff3c55fef.htm" />
+        <HelpTOCNode Title="Draw Method " Url="html/fe5bac93-b7b0-13bd-a9f6-fa80950b32fc.htm" />
+        <HelpTOCNode Title="GetScore Method " Url="html/5e6b4660-7d0f-7863-68b5-9a70eb97cea0.htm" />
+        <HelpTOCNode Title="Lost Method " Url="html/cda27e0d-2b2a-e5d4-0e8a-8c6f1f5d18f1.htm" />
+        <HelpTOCNode Title="Restart Method " Url="html/e9af1d6c-529b-38d2-2ed8-f81f8c18c4c3.htm" />
+        <HelpTOCNode Title="SnakeHasGrown Method " Url="html/be02b1f3-0a4c-8ae3-48e7-2870557cff27.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="45816a6f-5f61-4371-8d92-dfd12503f0c6" Title="Piece Class" Url="html/a626f473-3078-904d-f085-095e89dd70d0.htm">
+      <HelpTOCNode Title="Piece Constructor " Url="html/0ef0f6af-7e67-73f5-ed1c-a624b54c5ad7.htm" />
+      <HelpTOCNode Id="d9d1dd00-b69c-4c6b-a762-2322f8f2f32f" Title="Piece Properties" Url="html/2d8a16b3-8e39-3da9-c4b4-f59aef790bcc.htm">
+        <HelpTOCNode Title="X Property " Url="html/fcf61520-e525-120c-24fb-375e18d6529e.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/ef923865-c379-ee22-45ca-700c665f6724.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="22a66b43-5c9d-47cc-a471-dc180324eb43" Title="Piece Methods" Url="html/f5dd258c-df25-33c2-a0cb-67d7c01aba00.htm">
+        <HelpTOCNode Title="Draw Method " Url="html/91e75281-fc15-b001-8137-03bea81866f4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7c348f9f-96b8-4703-8d95-913cab0f200d" Title="Piece Fields" Url="html/723abd60-b443-5c67-efb7-e15e02de2595.htm">
+        <HelpTOCNode Title="SIDE Field" Url="html/93f302ae-c1f7-75c0-2e71-ec69cad883f8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5eb4578e-91e2-4606-8313-79f94b145e29" Title="Snake Class" Url="html/b4ccba40-fa82-e34e-8c15-9ee7d97f9ec1.htm">
+      <HelpTOCNode Title="Snake Constructor " Url="html/9068b018-48b3-59bc-0f31-1fa03d71be8d.htm" />
+      <HelpTOCNode Id="1ef4b831-a09c-4046-b809-654394c0ecbe" Title="Snake Properties" Url="html/94c8021c-8184-4503-52ff-e45c6289fbea.htm">
+        <HelpTOCNode Title="Direction Property " Url="html/a7ef602b-1467-d7b2-45a3-40e8e05c04cd.htm" />
+        <HelpTOCNode Title="HeadX Property " Url="html/dc816a71-f662-b2f6-5348-33826be3174c.htm" />
+        <HelpTOCNode Title="HeadY Property " Url="html/e3295b25-f2f4-f57c-f878-d5062c6cafca.htm" />
+        <HelpTOCNode Title="ScoreLength Property " Url="html/dfd43abf-12dd-e237-df1c-6e899cfd3cab.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="881da28e-3771-4249-84bd-ae866a4ef8d4" Title="Snake Methods" Url="html/dcd64de1-0393-270e-2d88-0ce5ca3e3625.htm">
+        <HelpTOCNode Title="CanEat Method " Url="html/e1bc9dad-0840-28a3-494d-11f60dc75c2a.htm" />
+        <HelpTOCNode Title="Clear Method " Url="html/60cce770-24c0-e226-b4f4-46eb52f7f536.htm" />
+        <HelpTOCNode Title="Contains Method " Url="html/97284116-92a0-b6c9-ce3d-568632e26d98.htm" />
+        <HelpTOCNode Title="Draw Method " Url="html/3a4d61cb-9aea-ca7e-bbd9-a148a46d21d0.htm" />
+        <HelpTOCNode Title="Eat Method " Url="html/c706dc87-437b-611d-8eef-52fbc8857291.htm" />
+        <HelpTOCNode Title="EatsItself Method " Url="html/20369797-a1e9-0d0d-f979-165b87f3db7f.htm" />
+        <HelpTOCNode Title="MoveTo Method " Url="html/fc1cd8dc-dc75-be92-687f-2496fa5274bd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4df58334-b01d-4489-97a7-27aa052864b6" Title="Window Class" Url="html/d785543c-d18b-0102-955c-841eb60db732.htm">
+      <HelpTOCNode Title="Window Constructor " Url="html/405f67d0-664b-6ba2-4ee5-7315ded557dc.htm" />
+      <HelpTOCNode Title="Window Properties" Url="html/2894173b-e1b6-b001-2bfa-7edc6eb9886b.htm" />
+      <HelpTOCNode Id="75964002-22c1-41c9-b149-40b4a092d918" Title="Window Methods" Url="html/190a7fd6-268e-94b9-fc63-31a3b1cab1e6.htm">
+        <HelpTOCNode Id="b92fab7b-58f5-420a-9ba4-4a05865c2e92" Title="Dispose Method " Url="html/59c46ed7-e78c-8fa3-35ad-f2bb02cb1d8b.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/21301490-7760-3d34-3217-63b59d2ca5a0.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Window Events" Url="html/9728f5a7-5aaa-7018-3aa6-22cdb2f551c1.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

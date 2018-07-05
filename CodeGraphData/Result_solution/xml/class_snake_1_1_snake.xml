@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_snake_1_1_snake" kind="class" prot="public">
+    <compoundname>Snake::Snake</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_snake_1_1_snake_1a8d02628f982abe0f3ef44adfb1f726f2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Snake.Snake.HeadX</definition>
+        <argsstring></argsstring>
+        <name>HeadX</name>
+        <initializer>=&gt; m_Pieces.Last().X</initializer>
+        <briefdescription>
+<para>Gets the head x coordinate. </para>        </briefdescription>
+        <detaileddescription>
+<para>The head x coordinate. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="45" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_snake_1_1_snake_1a89adce0458550b1b51303177af538219" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Snake.Snake.HeadY</definition>
+        <argsstring></argsstring>
+        <name>HeadY</name>
+        <initializer>=&gt; m_Pieces.Last().Y</initializer>
+        <briefdescription>
+<para>Gets the head y coordinate. </para>        </briefdescription>
+        <detaileddescription>
+<para>The head y coordinate. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="53" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_snake_1_1_snake_1a912fc4449dc3eca0da55238e89ff36aa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Snake.Snake.ScoreLength</definition>
+        <argsstring></argsstring>
+        <name>ScoreLength</name>
+        <initializer>=&gt; m_Pieces.Count - 2</initializer>
+        <briefdescription>
+<para>Gets the length of the score. </para>        </briefdescription>
+        <detaileddescription>
+<para>The length of the score. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="61" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_snake_1_1_snake_1a31479cba3049a1e8371170df81c4eb23" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_snake_1a17196bbf1b4636022495ef12635a68f7" kindref="member">Direction</ref></type>
+        <definition>Direction Snake.Snake.Direction</definition>
+        <argsstring></argsstring>
+        <name>Direction</name>
+        <briefdescription>
+<para>Gets or sets the direction. </para>        </briefdescription>
+        <detaileddescription>
+<para>The direction. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="69" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_snake_1_1_game_1a923f13e9e2c28d914b83cf28fcb2c7a3" compoundref="_game_8cs" startline="97" endline="111">Snake.Game.SnakeHasGrown</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_snake_1_1_snake_1a23154b222280aed8648914f592a0be7a" prot="private" static="no" mutable="no">
+        <type>readonly Queue&lt; <ref refid="class_snake_1_1_piece" kindref="compound">Piece</ref> &gt;</type>
+        <definition>readonly Queue&lt;Piece&gt; Snake.Snake.m_Pieces</definition>
+        <argsstring></argsstring>
+        <name>m_Pieces</name>
+        <briefdescription>
+<para>The pieces. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="72" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_snake_1_1_snake_1a3d10b9f81a7c8e6e7b8cd9263c018125" prot="private" static="no" mutable="no">
+        <type>readonly Brush</type>
+        <definition>readonly Brush Snake.Snake.m_Color</definition>
+        <argsstring></argsstring>
+        <name>m_Color</name>
+        <briefdescription>
+<para>The color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="74" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_snake_1_1_snake_1a8380566e1a2f23802f4656a72da76412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Snake.Snake.Snake</definition>
+        <argsstring>(Brush color)</argsstring>
+        <name>Snake</name>
+        <param>
+          <type>Brush</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="84" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_snake_1ae1a73925b1a95fb087c26d87fe16a79f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Snake.Draw</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+<para>Draws the given g. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Graphics to process. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="98" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_snake_1a87e93fe5139973a667ecda894769349f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Snake.Snake.CanEat</definition>
+        <argsstring>(int a, int b, Piece food)</argsstring>
+        <name>CanEat</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="class_snake_1_1_piece" kindref="compound">Piece</ref></type>
+          <declname>food</declname>
+        </param>
+        <briefdescription>
+<para>Determine if we can eat. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>food</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The food. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><simplesect kind="return"><para>True if we can eat, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="118" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="118" bodyend="121"/>
+        <referencedby refid="class_snake_1_1_game_1a5efcd7d64d49bc7f068f2eaae008d085" compoundref="_game_8cs" startline="150" endline="160">Snake.Game.TryEat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_snake_1a1b5785fedc244882f02fa9145141c432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Snake.Snake.EatsItself</definition>
+        <argsstring>()</argsstring>
+        <name>EatsItself</name>
+        <briefdescription>
+<para>Determines if we can eats itself. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><simplesect kind="return"><para>True if it succeeds, false if it fails. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="131" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_snake_1a06b5d8a17c2d94cd6c979cef1c275eda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Snake.Snake.Contains</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Query if this object contains the given a. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para><simplesect kind="return"><para>True if the object is in this collection, false if not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="148" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="148" bodyend="151"/>
+        <referencedby refid="class_snake_1_1_game_1ad398a631e2e19d4782c0904ed1af1052" compoundref="_game_8cs" startline="168" endline="178">Snake.Game.GenerateFood</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_snake_1a68e6b4ee9071abc4f25805d920785a19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Snake.Eat</definition>
+        <argsstring>(Piece food)</argsstring>
+        <name>Eat</name>
+        <param>
+          <type><ref refid="class_snake_1_1_piece" kindref="compound">Piece</ref></type>
+          <declname>food</declname>
+        </param>
+        <briefdescription>
+<para>Eats the given food. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>food</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The food. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="161" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="161" bodyend="164"/>
+        <references refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" compoundref="_piece_8cs" startline="30">Snake.Piece.X</references>
+        <references refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" compoundref="_piece_8cs" startline="38">Snake.Piece.Y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_snake_1afdb48abfc8554f6b2f4220cadc751879" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Snake.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Clears this object to its blank/initial state. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="172" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="172" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snake_1_1_snake_1a282122ce2c3e9e54a6aaca3f43ed1b44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snake.Snake.MoveTo</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>MoveTo</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Move to. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An int to process. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="189" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="189" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A snake. </para>    </briefdescription>
+    <detaileddescription>
+<para>Jonna, 03-Jul-18. </para>    </detaileddescription>
+    <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="38" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="37" bodyend="194"/>
+    <listofallmembers>
+      <member refid="class_snake_1_1_snake_1a87e93fe5139973a667ecda894769349f" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>CanEat</name></member>
+      <member refid="class_snake_1_1_snake_1afdb48abfc8554f6b2f4220cadc751879" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>Clear</name></member>
+      <member refid="class_snake_1_1_snake_1a06b5d8a17c2d94cd6c979cef1c275eda" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>Contains</name></member>
+      <member refid="class_snake_1_1_snake_1a31479cba3049a1e8371170df81c4eb23" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>Direction</name></member>
+      <member refid="class_snake_1_1_snake_1ae1a73925b1a95fb087c26d87fe16a79f" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>Draw</name></member>
+      <member refid="class_snake_1_1_snake_1a68e6b4ee9071abc4f25805d920785a19" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>Eat</name></member>
+      <member refid="class_snake_1_1_snake_1a1b5785fedc244882f02fa9145141c432" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>EatsItself</name></member>
+      <member refid="class_snake_1_1_snake_1a8d02628f982abe0f3ef44adfb1f726f2" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>HeadX</name></member>
+      <member refid="class_snake_1_1_snake_1a89adce0458550b1b51303177af538219" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>HeadY</name></member>
+      <member refid="class_snake_1_1_snake_1a3d10b9f81a7c8e6e7b8cd9263c018125" prot="private" virt="non-virtual"><scope>Snake::Snake</scope><name>m_Color</name></member>
+      <member refid="class_snake_1_1_snake_1a23154b222280aed8648914f592a0be7a" prot="private" virt="non-virtual"><scope>Snake::Snake</scope><name>m_Pieces</name></member>
+      <member refid="class_snake_1_1_snake_1a282122ce2c3e9e54a6aaca3f43ed1b44" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>MoveTo</name></member>
+      <member refid="class_snake_1_1_snake_1a912fc4449dc3eca0da55238e89ff36aa" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>ScoreLength</name></member>
+      <member refid="class_snake_1_1_snake_1a8380566e1a2f23802f4656a72da76412" prot="public" virt="non-virtual"><scope>Snake::Snake</scope><name>Snake</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

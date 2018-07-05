@@ -1,0 +1,13 @@
+<map id="Snake.Window.OnTimerTick" name="Snake.Window.OnTimerTick">
+<area shape="rect" id="node2" href="$d5/d72/class_snake_1_1_game.html#a923f13e9e2c28d914b83cf28fcb2c7a3" title="Determines if we can snake has grown. " alt="" coords="240,81,439,108"/>
+<area shape="rect" id="node9" href="$d8/dae/class_snake_1_1_window.html#ad7ff8d320d8b689f6c4df5170f922030" title="Updates the score. " alt="" coords="245,132,433,159"/>
+<area shape="rect" id="node11" href="$d5/d72/class_snake_1_1_game.html#ae1c3c7687934689be99f9894c609b5cb" title="Losts this object. " alt="" coords="276,183,403,209"/>
+<area shape="rect" id="node3" href="$d5/d72/class_snake_1_1_game.html#a5efcd7d64d49bc7f068f2eaae008d085" title="Attempts to eat an int from the given int. " alt="" coords="496,81,636,108"/>
+<area shape="rect" id="node4" href="$dd/d78/class_snake_1_1_snake.html#a87e93fe5139973a667ecda894769349f" title="Determine if we can eat. " alt="" coords="712,5,859,32"/>
+<area shape="rect" id="node5" href="$dd/d78/class_snake_1_1_snake.html#a68e6b4ee9071abc4f25805d920785a19" title="Eats the given food. " alt="" coords="723,56,847,83"/>
+<area shape="rect" id="node6" href="$d5/d72/class_snake_1_1_game.html#ad398a631e2e19d4782c0904ed1af1052" title="Generates a food. " alt="" coords="693,107,877,133"/>
+<area shape="rect" id="node8" href="$dd/d78/class_snake_1_1_snake.html#a282122ce2c3e9e54a6aaca3f43ed1b44" title="Move to. " alt="" coords="711,157,859,184"/>
+<area shape="rect" id="node7" href="$dd/d78/class_snake_1_1_snake.html#a06b5d8a17c2d94cd6c979cef1c275eda" title="Query if this object contains the given a. " alt="" coords="925,107,1080,133"/>
+<area shape="rect" id="node10" href="$d5/d72/class_snake_1_1_game.html#a55372fdb6c0351cca92351c5d622a9e0" title="Gets the score. " alt="" coords="487,132,645,159"/>
+<area shape="rect" id="node12" href="$dd/d78/class_snake_1_1_snake.html#a1b5785fedc244882f02fa9145141c432" title="Determines if we can eats itself. " alt="" coords="487,183,645,209"/>
+</map>

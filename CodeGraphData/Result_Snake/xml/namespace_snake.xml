@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_snake" kind="namespace">
+    <compoundname>Snake</compoundname>
+    <innerclass refid="class_snake_1_1_game" prot="public">Snake::Game</innerclass>
+    <innerclass refid="class_snake_1_1_piece" prot="public">Snake::Piece</innerclass>
+    <innerclass refid="class_snake_1_1_program" prot="public">Snake::Program</innerclass>
+    <innerclass refid="class_snake_1_1_snake" prot="public">Snake::Snake</innerclass>
+    <innerclass refid="class_snake_1_1_window" prot="public">Snake::Window</innerclass>
+    <innernamespace refid="namespace_snake_1_1_properties">Snake::Properties</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_snake_1a17196bbf1b4636022495ef12635a68f7" prot="public" static="no">
+        <name>Direction</name>
+        <enumvalue id="namespace_snake_1a17196bbf1b4636022495ef12635a68f7a08a38277b0309070706f6652eeae9a53" prot="public">
+          <name>Down</name>
+          <briefdescription>
+<para>An enum constant representing the down option. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_snake_1a17196bbf1b4636022495ef12635a68f7a258f49887ef8d14ac268c92b02503aaa" prot="public">
+          <name>Up</name>
+          <briefdescription>
+<para>An enum constant representing the up option. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_snake_1a17196bbf1b4636022495ef12635a68f7a92b09c7c48c520c3c55e497875da437c" prot="public">
+          <name>Right</name>
+          <briefdescription>
+<para>An enum constant representing the right option. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_snake_1a17196bbf1b4636022495ef12635a68f7a945d5e233cf7d6240f6b783b36a374ff" prot="public">
+          <name>Left</name>
+          <briefdescription>
+<para>An enum constant representing the left option. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Values that represent directions. </para>        </briefdescription>
+        <detaileddescription>
+<para>Jonna, 03-Jul-18. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" line="20" column="1" bodyfile="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Snake.cs" bodystart="19" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Game.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

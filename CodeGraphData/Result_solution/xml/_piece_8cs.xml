@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_piece_8cs" kind="file">
+    <compoundname>Piece.cs</compoundname>
+    <innerclass refid="class_snake_1_1_piece" prot="public">Snake::Piece</innerclass>
+    <innernamespace refid="namespace_snake">Snake</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>file:<sp/><sp/><sp/><sp/>Piece.cs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>summary:<sp/>Implements<sp/>the<sp/>piece<sp/>class</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Snake</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_snake_1_1_piece" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_snake_1_1_piece" kindref="compound">Piece</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="class_snake_1_1_piece_1a0b060fe73837e293df54638df8767686" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_snake_1_1_piece_1a0b060fe73837e293df54638df8767686" kindref="member">SIDE</ref><sp/>=<sp/>25;</highlight></codeline>
+<codeline lineno="22" refid="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>Brush<sp/><ref refid="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" kindref="member">m_Color</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" kindref="member">X</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" kindref="member">Y</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_snake_1_1_piece_1a9bad54ea0c86794e056c58433b966f28" kindref="member">Piece</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/>Brush<sp/>color)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" kindref="member">X</ref><sp/>=<sp/>a;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" kindref="member">Y</ref><sp/>=<sp/>b;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" kindref="member">m_Color</ref><sp/>=<sp/>color;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_snake_1_1_piece_1aa6bab7c3218640a9ad730155c9950116" kindref="member">Draw</ref>(Graphics<sp/>g)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g.FillRectangle(<ref refid="class_snake_1_1_piece_1aa23507020c98306f3397685b8ceaa325" kindref="member">m_Color</ref>,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Rectangle(<ref refid="class_snake_1_1_piece_1a282f8ec07e0127ffe506ba210e76efc8" kindref="member">X</ref><sp/>*<sp/><ref refid="class_snake_1_1_piece_1a0b060fe73837e293df54638df8767686" kindref="member">SIDE</ref>,<sp/><ref refid="class_snake_1_1_piece_1a216699c0710be0b0b42ce568157e51b9" kindref="member">Y</ref><sp/>*<sp/>SIDE,<sp/>SIDE,<sp/>SIDE));</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Segment/DOTNET/Workspaces/Users/jonna/source/repos/DocumentationSolution/Snake/Piece.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,385 @@
+\hypertarget{class_snake_1_1_game}{}\section{Snake.\+Game Class Reference}
+\label{class_snake_1_1_game}\index{Snake.\+Game@{Snake.\+Game}}
+
+
+A game.  
+
+
+
+
+Collaboration diagram for Snake.\+Game\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{dc/dc7/class_snake_1_1_game__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1_game_a16b91396b858683bbf27177137e660da}{Game}} (int width, int height)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_game_ae3bcefb730cb41ecfc315da121687315}{Restart}} ()
+\begin{DoxyCompactList}\small\item\em Restarts this object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_game_ada55759091b780f152f7e4c362888ae2}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Draws the given g. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1_game_a55372fdb6c0351cca92351c5d622a9e0}{Get\+Score}} ()
+\begin{DoxyCompactList}\small\item\em Gets the score. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_snake_1_1_game_a923f13e9e2c28d914b83cf28fcb2c7a3}{Snake\+Has\+Grown}} ()
+\begin{DoxyCompactList}\small\item\em Determines if we can snake has grown. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_snake_1_1_game_ae1c3c7687934689be99f9894c609b5cb}{Lost}} ()
+\begin{DoxyCompactList}\small\item\em Losts this object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_game_ab7a178dc4a0dfa1af089aecc944fa209}{Change\+Snake\+D\+Irection}} (\mbox{\hyperlink{namespace_snake_a17196bbf1b4636022495ef12635a68f7}{Direction}} direction)
+\begin{DoxyCompactList}\small\item\em Change snake d irection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_snake_1_1_game_a5efcd7d64d49bc7f068f2eaae008d085}{Try\+Eat}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Attempts to eat an int from the given int. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_game_ad398a631e2e19d4782c0904ed1af1052}{Generate\+Food}} ()
+\begin{DoxyCompactList}\small\item\em Generates a food. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly int \mbox{\hyperlink{class_snake_1_1_game_a888cadd0a012125452ebb79eaf0ba452}{m\+\_\+\+Width}}
+\begin{DoxyCompactList}\small\item\em The width. \end{DoxyCompactList}\item 
+readonly int \mbox{\hyperlink{class_snake_1_1_game_add3581587df75e2220076be1829b7bfc}{m\+\_\+\+Height}}
+\begin{DoxyCompactList}\small\item\em The height. \end{DoxyCompactList}\item 
+readonly \mbox{\hyperlink{class_snake_1_1_snake}{Snake}} \mbox{\hyperlink{class_snake_1_1_game_a6dc056d37537ad9e0d1ca49052a33662}{m\+\_\+\+Snake}}
+\begin{DoxyCompactList}\small\item\em The snake. \end{DoxyCompactList}\item 
+readonly \mbox{\hyperlink{class_snake_1_1_piece}{Piece}} \mbox{\hyperlink{class_snake_1_1_game_a12e14cdbb5ccab077cb96099b98eed79}{m\+\_\+\+Food}}
+\begin{DoxyCompactList}\small\item\em The food. \end{DoxyCompactList}\item 
+readonly Random \mbox{\hyperlink{class_snake_1_1_game_abf97cdaf48baf9d166f116bdba77f962}{m\+\_\+\+Rnd}}
+\begin{DoxyCompactList}\small\item\em The random. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A game. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1_game_a16b91396b858683bbf27177137e660da}\label{class_snake_1_1_game_a16b91396b858683bbf27177137e660da}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Game@{Game}}
+\index{Game@{Game}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Snake.\+Game.\+Game (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & The width. \\
+\hline
+{\em height} & The height. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_a16b91396b858683bbf27177137e660da_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1_game_ab7a178dc4a0dfa1af089aecc944fa209}\label{class_snake_1_1_game_ab7a178dc4a0dfa1af089aecc944fa209}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Change\+Snake\+D\+Irection@{Change\+Snake\+D\+Irection}}
+\index{Change\+Snake\+D\+Irection@{Change\+Snake\+D\+Irection}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Change\+Snake\+D\+Irection()}{ChangeSnakeDIrection()}}
+{\footnotesize\ttfamily void Snake.\+Game.\+Change\+Snake\+D\+Irection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_snake_a17196bbf1b4636022495ef12635a68f7}{Direction}}}]{direction }\end{DoxyParamCaption})}
+
+
+
+Change snake d irection. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & The direction. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_ab7a178dc4a0dfa1af089aecc944fa209_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_game_ada55759091b780f152f7e4c362888ae2}\label{class_snake_1_1_game_ada55759091b780f152f7e4c362888ae2}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Draw@{Draw}}
+\index{Draw@{Draw}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Snake.\+Game.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Draws the given g. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & The Graphics to process. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{d5/d72/class_snake_1_1_game_ada55759091b780f152f7e4c362888ae2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_ada55759091b780f152f7e4c362888ae2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_game_ad398a631e2e19d4782c0904ed1af1052}\label{class_snake_1_1_game_ad398a631e2e19d4782c0904ed1af1052}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Generate\+Food@{Generate\+Food}}
+\index{Generate\+Food@{Generate\+Food}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Generate\+Food()}{GenerateFood()}}
+{\footnotesize\ttfamily void Snake.\+Game.\+Generate\+Food (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Generates a food. 
+
+Jonna, 03-\/\+Jul-\/18. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_ad398a631e2e19d4782c0904ed1af1052_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_ad398a631e2e19d4782c0904ed1af1052_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_game_a55372fdb6c0351cca92351c5d622a9e0}\label{class_snake_1_1_game_a55372fdb6c0351cca92351c5d622a9e0}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Get\+Score@{Get\+Score}}
+\index{Get\+Score@{Get\+Score}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Get\+Score()}{GetScore()}}
+{\footnotesize\ttfamily int Snake.\+Game.\+Get\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the score. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+\begin{DoxyReturn}{Returns}
+The score. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_a55372fdb6c0351cca92351c5d622a9e0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_game_ae1c3c7687934689be99f9894c609b5cb}\label{class_snake_1_1_game_ae1c3c7687934689be99f9894c609b5cb}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Lost@{Lost}}
+\index{Lost@{Lost}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Lost()}{Lost()}}
+{\footnotesize\ttfamily bool Snake.\+Game.\+Lost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Losts this object. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+\begin{DoxyReturn}{Returns}
+True if it succeeds, false if it fails. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{d5/d72/class_snake_1_1_game_ae1c3c7687934689be99f9894c609b5cb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_ae1c3c7687934689be99f9894c609b5cb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_game_ae3bcefb730cb41ecfc315da121687315}\label{class_snake_1_1_game_ae3bcefb730cb41ecfc315da121687315}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Restart@{Restart}}
+\index{Restart@{Restart}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Restart()}{Restart()}}
+{\footnotesize\ttfamily void Snake.\+Game.\+Restart (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Restarts this object. 
+
+Jonna, 03-\/\+Jul-\/18. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_ae3bcefb730cb41ecfc315da121687315_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_ae3bcefb730cb41ecfc315da121687315_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_game_a923f13e9e2c28d914b83cf28fcb2c7a3}\label{class_snake_1_1_game_a923f13e9e2c28d914b83cf28fcb2c7a3}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Snake\+Has\+Grown@{Snake\+Has\+Grown}}
+\index{Snake\+Has\+Grown@{Snake\+Has\+Grown}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Snake\+Has\+Grown()}{SnakeHasGrown()}}
+{\footnotesize\ttfamily bool Snake.\+Game.\+Snake\+Has\+Grown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Determines if we can snake has grown. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+\begin{DoxyReturn}{Returns}
+True if it succeeds, false if it fails. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_a923f13e9e2c28d914b83cf28fcb2c7a3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_a923f13e9e2c28d914b83cf28fcb2c7a3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_game_a5efcd7d64d49bc7f068f2eaae008d085}\label{class_snake_1_1_game_a5efcd7d64d49bc7f068f2eaae008d085}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!Try\+Eat@{Try\+Eat}}
+\index{Try\+Eat@{Try\+Eat}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{Try\+Eat()}{TryEat()}}
+{\footnotesize\ttfamily bool Snake.\+Game.\+Try\+Eat (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Attempts to eat an int from the given int. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & An int to process. \\
+\hline
+{\em b} & An int to process. \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+True if it succeeds, false if it fails. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_a5efcd7d64d49bc7f068f2eaae008d085_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d72/class_snake_1_1_game_a5efcd7d64d49bc7f068f2eaae008d085_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{class_snake_1_1_game_a12e14cdbb5ccab077cb96099b98eed79}\label{class_snake_1_1_game_a12e14cdbb5ccab077cb96099b98eed79}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!m\+\_\+\+Food@{m\+\_\+\+Food}}
+\index{m\+\_\+\+Food@{m\+\_\+\+Food}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Food}{m\_Food}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{class_snake_1_1_piece}{Piece}} Snake.\+Game.\+m\+\_\+\+Food\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The food. 
+
+\mbox{\Hypertarget{class_snake_1_1_game_add3581587df75e2220076be1829b7bfc}\label{class_snake_1_1_game_add3581587df75e2220076be1829b7bfc}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!m\+\_\+\+Height@{m\+\_\+\+Height}}
+\index{m\+\_\+\+Height@{m\+\_\+\+Height}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Height}{m\_Height}}
+{\footnotesize\ttfamily readonly int Snake.\+Game.\+m\+\_\+\+Height\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The height. 
+
+\mbox{\Hypertarget{class_snake_1_1_game_abf97cdaf48baf9d166f116bdba77f962}\label{class_snake_1_1_game_abf97cdaf48baf9d166f116bdba77f962}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!m\+\_\+\+Rnd@{m\+\_\+\+Rnd}}
+\index{m\+\_\+\+Rnd@{m\+\_\+\+Rnd}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Rnd}{m\_Rnd}}
+{\footnotesize\ttfamily readonly Random Snake.\+Game.\+m\+\_\+\+Rnd\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The random. 
+
+\mbox{\Hypertarget{class_snake_1_1_game_a6dc056d37537ad9e0d1ca49052a33662}\label{class_snake_1_1_game_a6dc056d37537ad9e0d1ca49052a33662}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!m\+\_\+\+Snake@{m\+\_\+\+Snake}}
+\index{m\+\_\+\+Snake@{m\+\_\+\+Snake}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Snake}{m\_Snake}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{class_snake_1_1_snake}{Snake}} Snake.\+Game.\+m\+\_\+\+Snake\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The snake. 
+
+\mbox{\Hypertarget{class_snake_1_1_game_a888cadd0a012125452ebb79eaf0ba452}\label{class_snake_1_1_game_a888cadd0a012125452ebb79eaf0ba452}} 
+\index{Snake\+::\+Game@{Snake\+::\+Game}!m\+\_\+\+Width@{m\+\_\+\+Width}}
+\index{m\+\_\+\+Width@{m\+\_\+\+Width}!Snake\+::\+Game@{Snake\+::\+Game}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Width}{m\_Width}}
+{\footnotesize\ttfamily readonly int Snake.\+Game.\+m\+\_\+\+Width\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The width. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Segment/\+D\+O\+T\+N\+E\+T/\+Workspaces/\+Users/jonna/source/repos/\+Documentation\+Solution/\+Snake/\mbox{\hyperlink{_game_8cs}{Game.\+cs}}\end{DoxyCompactItemize}

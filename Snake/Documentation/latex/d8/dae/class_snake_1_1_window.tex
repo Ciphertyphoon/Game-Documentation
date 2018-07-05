@@ -1,0 +1,420 @@
+\hypertarget{class_snake_1_1_window}{}\section{Snake.\+Window Class Reference}
+\label{class_snake_1_1_window}\index{Snake.\+Window@{Snake.\+Window}}
+
+
+A window.  
+
+
+
+
+Inheritance diagram for Snake.\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{d1/d02/class_snake_1_1_window__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Snake.\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d4/d19/class_snake_1_1_window__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1_window_ab6ea319a57aaf8656b86df24bab0f810}{Window}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_snake_1_1_window_aeb80b0d2ae454bee60c5b587574884d6}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_snake_1_1_window_ad7ff8d320d8b689f6c4df5170f922030}{Update\+Score}} ()
+\begin{DoxyCompactList}\small\item\em Updates the score. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_window_aea9a1f8d7553baa30e67b58909210415}{On\+Timer\+Tick}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Raises the timer tick event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_window_af4974962d6658e8225bd9b840a3fca32}{On\+Key\+Down}} (object sender, Key\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Raises the key event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_window_ae50a37d5b61d3704469c2902308d96e3}{On\+Paint}} (object sender, Paint\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Paints this window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_window_af9391fc232a8726ba50d284bb23271bb}{On\+Restart\+Btn\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Raises the restart button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_window_a2291066b4718678884b7d69ae8360407}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Required method for Designer support -\/ do not modify the contents of this method with the code editor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{class_snake_1_1_window_a9062ddbb391d972a1d4463c9dffb92ed}{W\+I\+D\+TH}} = 12
+\begin{DoxyCompactList}\small\item\em The width. \end{DoxyCompactList}\item 
+const int \mbox{\hyperlink{class_snake_1_1_window_ad3db1ce4b9762bfe200fc4edaa82c7be}{H\+E\+I\+G\+HT}} = 16
+\begin{DoxyCompactList}\small\item\em The height. \end{DoxyCompactList}\item 
+const string \mbox{\hyperlink{class_snake_1_1_window_a0337ab5c01feaab19ef7a417a008e894}{S\+C\+O\+R\+E\+\_\+\+S\+T\+R\+I\+NG}} = \char`\"{}Score\+: \{0\}\char`\"{}
+\begin{DoxyCompactList}\small\item\em The score string. \end{DoxyCompactList}\item 
+readonly Color \mbox{\hyperlink{class_snake_1_1_window_ab061ad97897287fd387ab3257afbc027}{m\+\_\+\+Background\+Color}} = Color.\+Cornflower\+Blue
+\begin{DoxyCompactList}\small\item\em The background color. \end{DoxyCompactList}\item 
+readonly \mbox{\hyperlink{class_snake_1_1_game}{Game}} \mbox{\hyperlink{class_snake_1_1_window_aeee75245fe3e664d795f65afe73de094}{m\+\_\+\+Game}}
+\begin{DoxyCompactList}\small\item\em The game. \end{DoxyCompactList}\item 
+readonly Bitmap \mbox{\hyperlink{class_snake_1_1_window_a89c7994cf627a96ff1d1a1a3cd0ea93e}{m\+\_\+\+Game\+Field}}
+\begin{DoxyCompactList}\small\item\em The game field. \end{DoxyCompactList}\item 
+readonly Graphics \mbox{\hyperlink{class_snake_1_1_window_ab9d41c8c542f96d4b3b5e24eceb44353}{m\+\_\+\+Game\+Graphics}}
+\begin{DoxyCompactList}\small\item\em The game graphics. \end{DoxyCompactList}\item 
+System.\+Component\+Model.\+I\+Container \mbox{\hyperlink{class_snake_1_1_window_aeb5780622794e2bb196f67adfdaa7b55}{components}} = null
+\begin{DoxyCompactList}\small\item\em Required designer variable. \end{DoxyCompactList}\item 
+System.\+Windows.\+Forms.\+Timer \mbox{\hyperlink{class_snake_1_1_window_ae36d16241edd7f753134d34119b66067}{m\+\_\+\+Timer}}
+\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_snake_1_1_window_a38ed1fb52b0f48ca9ee4d472d4b06974}{m\+\_\+\+Restart\+Btn}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_snake_1_1_window_a59d59b9c267f75b0c4b565454f520714}{score\+Lbl}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A window. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1_window_ab6ea319a57aaf8656b86df24bab0f810}\label{class_snake_1_1_window_ab6ea319a57aaf8656b86df24bab0f810}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!Window@{Window}}
+\index{Window@{Window}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{Window()}{Window()}}
+{\footnotesize\ttfamily Snake.\+Window.\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+Jonna, 03-\/\+Jul-\/18. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_ab6ea319a57aaf8656b86df24bab0f810_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1_window_aeb80b0d2ae454bee60c5b587574884d6}\label{class_snake_1_1_window_aeb80b0d2ae454bee60c5b587574884d6}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily override void Snake.\+Window.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_snake_1_1_window_a2291066b4718678884b7d69ae8360407}\label{class_snake_1_1_window_a2291066b4718678884b7d69ae8360407}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!Initialize\+Component@{Initialize\+Component}}
+\index{Initialize\+Component@{Initialize\+Component}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{Initialize\+Component()}{InitializeComponent()}}
+{\footnotesize\ttfamily void Snake.\+Window.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required method for Designer support -\/ do not modify the contents of this method with the code editor. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_a2291066b4718678884b7d69ae8360407_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_a2291066b4718678884b7d69ae8360407_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_window_af4974962d6658e8225bd9b840a3fca32}\label{class_snake_1_1_window_af4974962d6658e8225bd9b840a3fca32}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!On\+Key\+Down@{On\+Key\+Down}}
+\index{On\+Key\+Down@{On\+Key\+Down}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{On\+Key\+Down()}{OnKeyDown()}}
+{\footnotesize\ttfamily void Snake.\+Window.\+On\+Key\+Down (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Key\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Raises the key event. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & Source of the event. \\
+\hline
+{\em e} & Event information to send to registered event handlers. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_af4974962d6658e8225bd9b840a3fca32_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_af4974962d6658e8225bd9b840a3fca32_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_window_ae50a37d5b61d3704469c2902308d96e3}\label{class_snake_1_1_window_ae50a37d5b61d3704469c2902308d96e3}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!On\+Paint@{On\+Paint}}
+\index{On\+Paint@{On\+Paint}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{On\+Paint()}{OnPaint()}}
+{\footnotesize\ttfamily void Snake.\+Window.\+On\+Paint (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Paint\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Paints this window. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & Source of the event. \\
+\hline
+{\em e} & Event information to send to registered event handlers. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_ae50a37d5b61d3704469c2902308d96e3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_ae50a37d5b61d3704469c2902308d96e3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_window_af9391fc232a8726ba50d284bb23271bb}\label{class_snake_1_1_window_af9391fc232a8726ba50d284bb23271bb}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!On\+Restart\+Btn\+Click@{On\+Restart\+Btn\+Click}}
+\index{On\+Restart\+Btn\+Click@{On\+Restart\+Btn\+Click}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{On\+Restart\+Btn\+Click()}{OnRestartBtnClick()}}
+{\footnotesize\ttfamily void Snake.\+Window.\+On\+Restart\+Btn\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Raises the restart button click event. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & Source of the event. \\
+\hline
+{\em e} & Event information to send to registered event handlers. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_af9391fc232a8726ba50d284bb23271bb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_af9391fc232a8726ba50d284bb23271bb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_window_aea9a1f8d7553baa30e67b58909210415}\label{class_snake_1_1_window_aea9a1f8d7553baa30e67b58909210415}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!On\+Timer\+Tick@{On\+Timer\+Tick}}
+\index{On\+Timer\+Tick@{On\+Timer\+Tick}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{On\+Timer\+Tick()}{OnTimerTick()}}
+{\footnotesize\ttfamily void Snake.\+Window.\+On\+Timer\+Tick (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Raises the timer tick event. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & Source of the event. \\
+\hline
+{\em e} & Event information to send to registered event handlers. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_aea9a1f8d7553baa30e67b58909210415_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_aea9a1f8d7553baa30e67b58909210415_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_window_ad7ff8d320d8b689f6c4df5170f922030}\label{class_snake_1_1_window_ad7ff8d320d8b689f6c4df5170f922030}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!Update\+Score@{Update\+Score}}
+\index{Update\+Score@{Update\+Score}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{Update\+Score()}{UpdateScore()}}
+{\footnotesize\ttfamily void Snake.\+Window.\+Update\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Updates the score. 
+
+Jonna, 03-\/\+Jul-\/18. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_ad7ff8d320d8b689f6c4df5170f922030_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/dae/class_snake_1_1_window_ad7ff8d320d8b689f6c4df5170f922030_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{class_snake_1_1_window_aeb5780622794e2bb196f67adfdaa7b55}\label{class_snake_1_1_window_aeb5780622794e2bb196f67adfdaa7b55}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!components@{components}}
+\index{components@{components}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily System.\+Component\+Model.\+I\+Container Snake.\+Window.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required designer variable. 
+
+\mbox{\Hypertarget{class_snake_1_1_window_ad3db1ce4b9762bfe200fc4edaa82c7be}\label{class_snake_1_1_window_ad3db1ce4b9762bfe200fc4edaa82c7be}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!H\+E\+I\+G\+HT@{H\+E\+I\+G\+HT}}
+\index{H\+E\+I\+G\+HT@{H\+E\+I\+G\+HT}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{H\+E\+I\+G\+HT}{HEIGHT}}
+{\footnotesize\ttfamily const int Snake.\+Window.\+H\+E\+I\+G\+HT = 16\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The height. 
+
+\mbox{\Hypertarget{class_snake_1_1_window_ab061ad97897287fd387ab3257afbc027}\label{class_snake_1_1_window_ab061ad97897287fd387ab3257afbc027}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!m\+\_\+\+Background\+Color@{m\+\_\+\+Background\+Color}}
+\index{m\+\_\+\+Background\+Color@{m\+\_\+\+Background\+Color}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Background\+Color}{m\_BackgroundColor}}
+{\footnotesize\ttfamily readonly Color Snake.\+Window.\+m\+\_\+\+Background\+Color = Color.\+Cornflower\+Blue\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The background color. 
+
+\mbox{\Hypertarget{class_snake_1_1_window_aeee75245fe3e664d795f65afe73de094}\label{class_snake_1_1_window_aeee75245fe3e664d795f65afe73de094}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!m\+\_\+\+Game@{m\+\_\+\+Game}}
+\index{m\+\_\+\+Game@{m\+\_\+\+Game}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Game}{m\_Game}}
+{\footnotesize\ttfamily readonly \mbox{\hyperlink{class_snake_1_1_game}{Game}} Snake.\+Window.\+m\+\_\+\+Game\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game. 
+
+\mbox{\Hypertarget{class_snake_1_1_window_a89c7994cf627a96ff1d1a1a3cd0ea93e}\label{class_snake_1_1_window_a89c7994cf627a96ff1d1a1a3cd0ea93e}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!m\+\_\+\+Game\+Field@{m\+\_\+\+Game\+Field}}
+\index{m\+\_\+\+Game\+Field@{m\+\_\+\+Game\+Field}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Game\+Field}{m\_GameField}}
+{\footnotesize\ttfamily readonly Bitmap Snake.\+Window.\+m\+\_\+\+Game\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game field. 
+
+\mbox{\Hypertarget{class_snake_1_1_window_ab9d41c8c542f96d4b3b5e24eceb44353}\label{class_snake_1_1_window_ab9d41c8c542f96d4b3b5e24eceb44353}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!m\+\_\+\+Game\+Graphics@{m\+\_\+\+Game\+Graphics}}
+\index{m\+\_\+\+Game\+Graphics@{m\+\_\+\+Game\+Graphics}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Game\+Graphics}{m\_GameGraphics}}
+{\footnotesize\ttfamily readonly Graphics Snake.\+Window.\+m\+\_\+\+Game\+Graphics\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game graphics. 
+
+\mbox{\Hypertarget{class_snake_1_1_window_a38ed1fb52b0f48ca9ee4d472d4b06974}\label{class_snake_1_1_window_a38ed1fb52b0f48ca9ee4d472d4b06974}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!m\+\_\+\+Restart\+Btn@{m\+\_\+\+Restart\+Btn}}
+\index{m\+\_\+\+Restart\+Btn@{m\+\_\+\+Restart\+Btn}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Restart\+Btn}{m\_RestartBtn}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Snake.\+Window.\+m\+\_\+\+Restart\+Btn\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_snake_1_1_window_ae36d16241edd7f753134d34119b66067}\label{class_snake_1_1_window_ae36d16241edd7f753134d34119b66067}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!m\+\_\+\+Timer@{m\+\_\+\+Timer}}
+\index{m\+\_\+\+Timer@{m\+\_\+\+Timer}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Timer}{m\_Timer}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Timer Snake.\+Window.\+m\+\_\+\+Timer\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_snake_1_1_window_a0337ab5c01feaab19ef7a417a008e894}\label{class_snake_1_1_window_a0337ab5c01feaab19ef7a417a008e894}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!S\+C\+O\+R\+E\+\_\+\+S\+T\+R\+I\+NG@{S\+C\+O\+R\+E\+\_\+\+S\+T\+R\+I\+NG}}
+\index{S\+C\+O\+R\+E\+\_\+\+S\+T\+R\+I\+NG@{S\+C\+O\+R\+E\+\_\+\+S\+T\+R\+I\+NG}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{S\+C\+O\+R\+E\+\_\+\+S\+T\+R\+I\+NG}{SCORE\_STRING}}
+{\footnotesize\ttfamily const string Snake.\+Window.\+S\+C\+O\+R\+E\+\_\+\+S\+T\+R\+I\+NG = \char`\"{}Score\+: \{0\}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The score string. 
+
+\mbox{\Hypertarget{class_snake_1_1_window_a59d59b9c267f75b0c4b565454f520714}\label{class_snake_1_1_window_a59d59b9c267f75b0c4b565454f520714}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!score\+Lbl@{score\+Lbl}}
+\index{score\+Lbl@{score\+Lbl}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{score\+Lbl}{scoreLbl}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Snake.\+Window.\+score\+Lbl\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_snake_1_1_window_a9062ddbb391d972a1d4463c9dffb92ed}\label{class_snake_1_1_window_a9062ddbb391d972a1d4463c9dffb92ed}} 
+\index{Snake\+::\+Window@{Snake\+::\+Window}!W\+I\+D\+TH@{W\+I\+D\+TH}}
+\index{W\+I\+D\+TH@{W\+I\+D\+TH}!Snake\+::\+Window@{Snake\+::\+Window}}
+\subsubsection{\texorpdfstring{W\+I\+D\+TH}{WIDTH}}
+{\footnotesize\ttfamily const int Snake.\+Window.\+W\+I\+D\+TH = 12\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The width. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Segment/\+D\+O\+T\+N\+E\+T/\+Workspaces/\+Users/jonna/source/repos/\+Documentation\+Solution/\+Snake/\mbox{\hyperlink{_window_8cs}{Window.\+cs}}\item 
+D\+:/\+Segment/\+D\+O\+T\+N\+E\+T/\+Workspaces/\+Users/jonna/source/repos/\+Documentation\+Solution/\+Snake/\mbox{\hyperlink{_window_8_designer_8cs}{Window.\+Designer.\+cs}}\end{DoxyCompactItemize}

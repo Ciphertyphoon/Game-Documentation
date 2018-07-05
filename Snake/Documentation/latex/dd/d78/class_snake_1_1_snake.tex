@@ -1,0 +1,340 @@
+\hypertarget{class_snake_1_1_snake}{}\section{Snake.\+Snake Class Reference}
+\label{class_snake_1_1_snake}\index{Snake.\+Snake@{Snake.\+Snake}}
+
+
+A snake.  
+
+
+
+
+Collaboration diagram for Snake.\+Snake\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{df/d81/class_snake_1_1_snake__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_snake_1_1_snake_a8380566e1a2f23802f4656a72da76412}{Snake}} (Brush color)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_snake_ae1a73925b1a95fb087c26d87fe16a79f}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Draws the given g. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_snake_1_1_snake_a87e93fe5139973a667ecda894769349f}{Can\+Eat}} (int a, int b, \mbox{\hyperlink{class_snake_1_1_piece}{Piece}} food)
+\begin{DoxyCompactList}\small\item\em Determine if we can eat. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_snake_1_1_snake_a1b5785fedc244882f02fa9145141c432}{Eats\+Itself}} ()
+\begin{DoxyCompactList}\small\item\em Determines if we can eats itself. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_snake_1_1_snake_a06b5d8a17c2d94cd6c979cef1c275eda}{Contains}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Query if this object contains the given a. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_snake_a68e6b4ee9071abc4f25805d920785a19}{Eat}} (\mbox{\hyperlink{class_snake_1_1_piece}{Piece}} food)
+\begin{DoxyCompactList}\small\item\em Eats the given food. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_snake_afdb48abfc8554f6b2f4220cadc751879}{Clear}} ()
+\begin{DoxyCompactList}\small\item\em Clears this object to its blank/initial state. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_snake_1_1_snake_a282122ce2c3e9e54a6aaca3f43ed1b44}{Move\+To}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Move to. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_snake_1_1_snake_a8d02628f982abe0f3ef44adfb1f726f2}{HeadX}} =$>$ m\+\_\+\+Pieces.\+Last().X
+\begin{DoxyCompactList}\small\item\em Gets the head x coordinate. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1_snake_a89adce0458550b1b51303177af538219}{HeadY}} =$>$ m\+\_\+\+Pieces.\+Last().Y
+\begin{DoxyCompactList}\small\item\em Gets the head y coordinate. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_snake_1_1_snake_a912fc4449dc3eca0da55238e89ff36aa}{Score\+Length}} =$>$ m\+\_\+\+Pieces.\+Count -\/ 2
+\begin{DoxyCompactList}\small\item\em Gets the length of the score. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_snake_a17196bbf1b4636022495ef12635a68f7}{Direction}} \mbox{\hyperlink{class_snake_1_1_snake_a31479cba3049a1e8371170df81c4eb23}{Direction}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the direction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly Queue$<$ \mbox{\hyperlink{class_snake_1_1_piece}{Piece}} $>$ \mbox{\hyperlink{class_snake_1_1_snake_a23154b222280aed8648914f592a0be7a}{m\+\_\+\+Pieces}}
+\begin{DoxyCompactList}\small\item\em The pieces. \end{DoxyCompactList}\item 
+readonly Brush \mbox{\hyperlink{class_snake_1_1_snake_a3d10b9f81a7c8e6e7b8cd9263c018125}{m\+\_\+\+Color}}
+\begin{DoxyCompactList}\small\item\em The color. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A snake. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_snake_1_1_snake_a8380566e1a2f23802f4656a72da76412}\label{class_snake_1_1_snake_a8380566e1a2f23802f4656a72da76412}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Snake@{Snake}}
+\index{Snake@{Snake}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Snake()}{Snake()}}
+{\footnotesize\ttfamily Snake.\+Snake.\+Snake (\begin{DoxyParamCaption}\item[{Brush}]{color }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & The color. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake_1_1_snake_a87e93fe5139973a667ecda894769349f}\label{class_snake_1_1_snake_a87e93fe5139973a667ecda894769349f}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Can\+Eat@{Can\+Eat}}
+\index{Can\+Eat@{Can\+Eat}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Can\+Eat()}{CanEat()}}
+{\footnotesize\ttfamily bool Snake.\+Snake.\+Can\+Eat (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b,  }\item[{\mbox{\hyperlink{class_snake_1_1_piece}{Piece}}}]{food }\end{DoxyParamCaption})}
+
+
+
+Determine if we can eat. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & An int to process. \\
+\hline
+{\em b} & An int to process. \\
+\hline
+{\em food} & The food. \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+True if we can eat, false if not. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d78/class_snake_1_1_snake_a87e93fe5139973a667ecda894769349f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_snake_afdb48abfc8554f6b2f4220cadc751879}\label{class_snake_1_1_snake_afdb48abfc8554f6b2f4220cadc751879}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Clear@{Clear}}
+\index{Clear@{Clear}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void Snake.\+Snake.\+Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears this object to its blank/initial state. 
+
+Jonna, 03-\/\+Jul-\/18. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d78/class_snake_1_1_snake_afdb48abfc8554f6b2f4220cadc751879_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_snake_a06b5d8a17c2d94cd6c979cef1c275eda}\label{class_snake_1_1_snake_a06b5d8a17c2d94cd6c979cef1c275eda}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Contains@{Contains}}
+\index{Contains@{Contains}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Contains()}{Contains()}}
+{\footnotesize\ttfamily bool Snake.\+Snake.\+Contains (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b }\end{DoxyParamCaption})}
+
+
+
+Query if this object contains the given a. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & An int to process. \\
+\hline
+{\em b} & An int to process. \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+True if the object is in this collection, false if not. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d78/class_snake_1_1_snake_a06b5d8a17c2d94cd6c979cef1c275eda_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_snake_ae1a73925b1a95fb087c26d87fe16a79f}\label{class_snake_1_1_snake_ae1a73925b1a95fb087c26d87fe16a79f}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Draw@{Draw}}
+\index{Draw@{Draw}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Snake.\+Snake.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Draws the given g. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & The Graphics to process. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d78/class_snake_1_1_snake_ae1a73925b1a95fb087c26d87fe16a79f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_snake_a68e6b4ee9071abc4f25805d920785a19}\label{class_snake_1_1_snake_a68e6b4ee9071abc4f25805d920785a19}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Eat@{Eat}}
+\index{Eat@{Eat}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Eat()}{Eat()}}
+{\footnotesize\ttfamily void Snake.\+Snake.\+Eat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_snake_1_1_piece}{Piece}}}]{food }\end{DoxyParamCaption})}
+
+
+
+Eats the given food. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em food} & The food. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d78/class_snake_1_1_snake_a68e6b4ee9071abc4f25805d920785a19_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_snake_a1b5785fedc244882f02fa9145141c432}\label{class_snake_1_1_snake_a1b5785fedc244882f02fa9145141c432}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Eats\+Itself@{Eats\+Itself}}
+\index{Eats\+Itself@{Eats\+Itself}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Eats\+Itself()}{EatsItself()}}
+{\footnotesize\ttfamily bool Snake.\+Snake.\+Eats\+Itself (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Determines if we can eats itself. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+\begin{DoxyReturn}{Returns}
+True if it succeeds, false if it fails. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d78/class_snake_1_1_snake_a1b5785fedc244882f02fa9145141c432_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake_1_1_snake_a282122ce2c3e9e54a6aaca3f43ed1b44}\label{class_snake_1_1_snake_a282122ce2c3e9e54a6aaca3f43ed1b44}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Move\+To@{Move\+To}}
+\index{Move\+To@{Move\+To}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Move\+To()}{MoveTo()}}
+{\footnotesize\ttfamily void Snake.\+Snake.\+Move\+To (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b }\end{DoxyParamCaption})}
+
+
+
+Move to. 
+
+Jonna, 03-\/\+Jul-\/18. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & An int to process. \\
+\hline
+{\em b} & An int to process. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d78/class_snake_1_1_snake_a282122ce2c3e9e54a6aaca3f43ed1b44_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{class_snake_1_1_snake_a8d02628f982abe0f3ef44adfb1f726f2}\label{class_snake_1_1_snake_a8d02628f982abe0f3ef44adfb1f726f2}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!HeadX@{HeadX}}
+\index{HeadX@{HeadX}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{HeadX}{HeadX}}
+{\footnotesize\ttfamily int Snake.\+Snake.\+HeadX =$>$ m\+\_\+\+Pieces.\+Last().X}
+
+
+
+Gets the head x coordinate. 
+
+The head x coordinate. \mbox{\Hypertarget{class_snake_1_1_snake_a89adce0458550b1b51303177af538219}\label{class_snake_1_1_snake_a89adce0458550b1b51303177af538219}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!HeadY@{HeadY}}
+\index{HeadY@{HeadY}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{HeadY}{HeadY}}
+{\footnotesize\ttfamily int Snake.\+Snake.\+HeadY =$>$ m\+\_\+\+Pieces.\+Last().Y}
+
+
+
+Gets the head y coordinate. 
+
+The head y coordinate. \mbox{\Hypertarget{class_snake_1_1_snake_a3d10b9f81a7c8e6e7b8cd9263c018125}\label{class_snake_1_1_snake_a3d10b9f81a7c8e6e7b8cd9263c018125}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!m\+\_\+\+Color@{m\+\_\+\+Color}}
+\index{m\+\_\+\+Color@{m\+\_\+\+Color}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Color}{m\_Color}}
+{\footnotesize\ttfamily readonly Brush Snake.\+Snake.\+m\+\_\+\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The color. 
+
+\mbox{\Hypertarget{class_snake_1_1_snake_a23154b222280aed8648914f592a0be7a}\label{class_snake_1_1_snake_a23154b222280aed8648914f592a0be7a}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!m\+\_\+\+Pieces@{m\+\_\+\+Pieces}}
+\index{m\+\_\+\+Pieces@{m\+\_\+\+Pieces}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{m\+\_\+\+Pieces}{m\_Pieces}}
+{\footnotesize\ttfamily readonly Queue$<$\mbox{\hyperlink{class_snake_1_1_piece}{Piece}}$>$ Snake.\+Snake.\+m\+\_\+\+Pieces\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The pieces. 
+
+\mbox{\Hypertarget{class_snake_1_1_snake_a912fc4449dc3eca0da55238e89ff36aa}\label{class_snake_1_1_snake_a912fc4449dc3eca0da55238e89ff36aa}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Score\+Length@{Score\+Length}}
+\index{Score\+Length@{Score\+Length}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Score\+Length}{ScoreLength}}
+{\footnotesize\ttfamily int Snake.\+Snake.\+Score\+Length =$>$ m\+\_\+\+Pieces.\+Count -\/ 2}
+
+
+
+Gets the length of the score. 
+
+The length of the score. 
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_snake_1_1_snake_a31479cba3049a1e8371170df81c4eb23}\label{class_snake_1_1_snake_a31479cba3049a1e8371170df81c4eb23}} 
+\index{Snake\+::\+Snake@{Snake\+::\+Snake}!Direction@{Direction}}
+\index{Direction@{Direction}!Snake\+::\+Snake@{Snake\+::\+Snake}}
+\subsubsection{\texorpdfstring{Direction}{Direction}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_snake_a17196bbf1b4636022495ef12635a68f7}{Direction}} Snake.\+Snake.\+Direction\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the direction. 
+
+The direction. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Segment/\+D\+O\+T\+N\+E\+T/\+Workspaces/\+Users/jonna/source/repos/\+Documentation\+Solution/\+Snake/\mbox{\hyperlink{_snake_8cs}{Snake.\+cs}}\end{DoxyCompactItemize}

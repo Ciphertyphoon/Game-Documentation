@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d78/class_snake_1_1_snake">
+<title>Snake::Snake class Reference</title>
+<para>Inheritance diagram for Snake::Snake</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../d3/d9b/class_snake_1_1_snake__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Snake::Snake</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="../../df/d81/class_snake_1_1_snake__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Data Fields</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int HeadX<para><emphasis>&lt;summary&gt;   Gets the head x coordinate. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int HeadY<para><emphasis>&lt;summary&gt;   Gets the head y coordinate. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int ScoreLength<para><emphasis>&lt;summary&gt;   Gets the length of the score. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Queue&lt; Piece &gt; m_Pieces<para><emphasis>&lt;summary&gt;   The pieces. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>readonly Brush m_Color<para><emphasis>&lt;summary&gt;   The color. &lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d78/class_snake_1_1_snake_1a8380566e1a2f23802f4656a72da76412">Snake</link> (
+Brush color)<para><emphasis>&lt;summary&gt;   Constructor. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/d78/class_snake_1_1_snake_1ae1a73925b1a95fb087c26d87fe16a79f">Draw</link> (
+Graphics g)<para><emphasis>&lt;summary&gt;   Draws the given g. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="dd/d78/class_snake_1_1_snake_1a87e93fe5139973a667ecda894769349f">CanEat</link> (
+int a, int b, <link linkend="d9/d8f/class_snake_1_1_piece">Piece</link> food)<para><emphasis>&lt;summary&gt;   Determine if we can eat. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="dd/d78/class_snake_1_1_snake_1a1b5785fedc244882f02fa9145141c432">EatsItself</link> (
+)<para><emphasis>&lt;summary&gt;   Determines if we can eats itself. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="dd/d78/class_snake_1_1_snake_1a06b5d8a17c2d94cd6c979cef1c275eda">Contains</link> (
+int a, int b)<para><emphasis>&lt;summary&gt;   Query if this object contains the given a. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/d78/class_snake_1_1_snake_1a68e6b4ee9071abc4f25805d920785a19">Eat</link> (
+<link linkend="d9/d8f/class_snake_1_1_piece">Piece</link> food)<para><emphasis>&lt;summary&gt;   Eats the given food. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/d78/class_snake_1_1_snake_1afdb48abfc8554f6b2f4220cadc751879">Clear</link> (
+)<para><emphasis>&lt;summary&gt;   Clears this object to its blank/initial state. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/d78/class_snake_1_1_snake_1a282122ce2c3e9e54a6aaca3f43ed1b44">MoveTo</link> (
+int a, int b)<para><emphasis>&lt;summary&gt;   Move to. &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A snake. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Jonna, 03-Jul-18. </para>
+                <para>Definition at line 38 of file Snake.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Snake.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Field Documentation</title>
+            <simplesect>
+                <title>int Snake.Snake.HeadX</title>                
+<para>The head x coordinate. </para>
+
+                <para>Definition at line 45 of file Snake.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Snake.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>int Snake.Snake.HeadY</title>                
+<para>The head y coordinate. </para>
+
+                <para>Definition at line 53 of file Snake.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Snake.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>int Snake.Snake.ScoreLength</title>                
+<para>The length of the score. </para>
+
+                <para>Definition at line 61 of file Snake.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Snake.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+        <section>
+            <title>Field Documentation</title>
+            <simplesect>
+                <title>readonly Queue&lt;Piece&gt; Snake.Snake.m_Pieces</title>                
+                <para>Definition at line 72 of file Snake.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Snake.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>readonly Brush Snake.Snake.m_Color</title>                
+                <para>Definition at line 74 of file Snake.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Snake.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="dd/d78/class_snake_1_1_snake_1a8380566e1a2f23802f4656a72da76412">
+                <title>Snake.Snake.Snake (Brush color)</title> <emphasis>&lt;summary&gt;   Constructor. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>color</entry>
+                                <entry>
+<para>The color. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="dd/d78/class_snake_1_1_snake_1ae1a73925b1a95fb087c26d87fe16a79f">
+                <title>void Snake.Snake.Draw (Graphics g)</title> <emphasis>&lt;summary&gt;   Draws the given g. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>g</entry>
+                                <entry>
+<para>The Graphics to process. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="dd/d78/class_snake_1_1_snake_1a87e93fe5139973a667ecda894769349f">
+                <title>bool Snake.Snake.CanEat (int a, int b, Piece food)</title> <emphasis>&lt;summary&gt;   Determine if we can eat. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>food</entry>
+                                <entry>
+<para>The food. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>True if we can eat, false if not. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/d78/class_snake_1_1_snake_1a1b5785fedc244882f02fa9145141c432">
+                <title>bool Snake.Snake.EatsItself ()</title> <emphasis>&lt;summary&gt;   Determines if we can eats itself. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>True if it succeeds, false if it fails. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/d78/class_snake_1_1_snake_1a06b5d8a17c2d94cd6c979cef1c275eda">
+                <title>bool Snake.Snake.Contains (int a, int b)</title> <emphasis>&lt;summary&gt;   Query if this object contains the given a. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+<para><formalpara><title>Returns: </title>
+
+<para>True if the object is in this collection, false if not. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="dd/d78/class_snake_1_1_snake_1a68e6b4ee9071abc4f25805d920785a19">
+                <title>void Snake.Snake.Eat (Piece food)</title> <emphasis>&lt;summary&gt;   Eats the given food. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>food</entry>
+                                <entry>
+<para>The food. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="dd/d78/class_snake_1_1_snake_1afdb48abfc8554f6b2f4220cadc751879">
+                <title>void Snake.Snake.Clear ()</title> <emphasis>&lt;summary&gt;   Clears this object to its blank/initial state. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+            </section>
+            <section xml:id="dd/d78/class_snake_1_1_snake_1a282122ce2c3e9e54a6aaca3f43ed1b44">
+                <title>void Snake.Snake.MoveTo (int a, int b)</title> <emphasis>&lt;summary&gt;   Move to. &lt;/summary&gt;</emphasis>
+                
+<para>Jonna, 03-Jul-18. </para>
+
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Parameters                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>
+<para>An int to process. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>
